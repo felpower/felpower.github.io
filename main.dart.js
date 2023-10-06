@@ -10049,7 +10049,7 @@ o.qB(0,"651ecf01ea5bfd9d7d47",A.aj(["error",a,"stacktrace",c,"userAgent",q,"isFl
 A.bR("Failed to send error to Appwrite: "+A.i(p))}return A.x(null,r)}})
 return A.y($async$ahA,r)},
 ahB(a,b){return A.aUQ(a,b)},
-aUQ(a,b){var s=0,r=A.z(t.H),q=1,p,o,n,m,l,k,j,i,h
+aUQ(a,b){var s=0,r=A.z(t.H),q=1,p,o,n,m,l,k,j,i,h,g
 var $async$ahB=A.v(function(c,d){if(c===1){p=d
 s=q}while(true)switch(s){case 0:q=3
 A.bR("Sending feedback")
@@ -10067,16 +10067,17 @@ case 6:l=$.aNf()
 s=8
 return A.E(A.aCp(b),$async$ahB)
 case 8:k=d
-j=b.name
-j.toString
-l.B6(0,"651fe28fc0074e462967",new A.acw(k,j),n)
+j=A.i(n)
+i=b.name
+i.toString
+l.B6(0,"651fe28fc0074e462967",new A.acw(k,"FileId:"+j+"FileName:"+i),n)
 A.Nz("Feedback sent successfully!")
 case 7:q=1
 s=5
 break
 case 3:q=2
-h=p
-m=A.a8(h)
+g=p
+m=A.a8(g)
 A.Nz("Error sending feedback: "+A.i(m))
 s=5
 break
