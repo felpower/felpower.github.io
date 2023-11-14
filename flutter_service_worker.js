@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "452b42eabde568baf2e25aba7ee179a4",
-"assets/AssetManifest.bin.json": "54050306cda9b5b6d1d4fefada78c8a2",
-"assets/AssetManifest.json": "a296ee042bb74cee6ef92fe3950eddc5",
+const RESOURCES = {"assets/AssetManifest.bin": "008fd098eb8c414f645e8d16be41970f",
+"assets/AssetManifest.bin.json": "999a2618ce256c908b0e8cb451ed7dbf",
+"assets/AssetManifest.json": "f5af49afb79514bcfe98153adef727bf",
 "assets/assets/audio/bomb.wav": "6257b8d00aa498c54260229564862eea",
 "assets/assets/audio/game_start.wav": "b704ae71d6b7147492ce752f40a8f777",
 "assets/assets/audio/lost.wav": "3c66057ca30502bf8cda7383d070299c",
@@ -15,6 +15,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "452b42eabde568baf2e25aba7ee179a4
 "assets/assets/icons/tile.png": "4a57030ad04ea889ec226fe3eebf6977",
 "assets/assets/images/background/background.jpg": "78e869de6ddb81384908778130701273",
 "assets/assets/images/background/background2.jpg": "a1ce80eefc6e5a47da5a6bc4c8dbe0c1",
+"assets/assets/images/background/background_new.png": "aec8b96e08795e2884f58eb69720dc39",
+"assets/assets/images/background/background_new2.png": "9cfd7af4bcc161f809aed516ac52aa2e",
 "assets/assets/images/bombs/blue.png": "1ee353e1f2eec8a690f5c3a3dcaee713",
 "assets/assets/images/bombs/fireball.png": "72c4cdcecb74c23d47bdd753de769f3d",
 "assets/assets/images/bombs/fish_1.png": "4f82f405f8032f9ac7e8e5c8273dfcfc",
@@ -95,9 +97,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "452b42eabde568baf2e25aba7ee179a4
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "500f48f46619f870762a3d1a16f48a9b",
+"index.html": "3ff923b275239cee788005fe5ef16820",
 "/": "7b6abe3c415e7ab3ba8e888074093615",
-"main.dart.js": "a11331cadcafab5e90c85bb2199bf8ee",
+"main.dart.js": "b80866946b7e586b1e5edfbe8032fa62",
 "manifest.json": "071e4a0753903aa0a1b22e293aebb9b4",
 "sw.js": "b29c83a41fba109b7c7fed281182b3aa",
 "UnityLibrary/Build/UnityLibrary.data": "1c21a071fa63a67d3ada9fcd344763c1",
