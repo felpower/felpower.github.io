@@ -29,10 +29,11 @@ messaging.onBackgroundMessage(function(payload) {
   });
 
 self.addEventListener('notificationclick', function(event) {
-   event.notification.close();
+    console.log('Notification clicked ', event);
+    event.notification.close();
 
    // Example: navigate to a specific URL on notification click
-   event.waitUntil(
-     clients.openWindow('/?source=notification')
-   );
+    event.waitUntil(
+        clients.openWindow('/?source=notification')
+    );
  });
