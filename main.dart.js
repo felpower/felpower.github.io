@@ -109711,7 +109711,7 @@ Vb(a){this.aAh(0,"expected "+a+".",0,this.c)}}
 A.tq.prototype={
 G(){return"BooleanResult."+this.b}}
 A.EO.prototype={
-b7(){return A.a5(["defaultValue",null,"hint","Gerundet auf ganze Stunden"],t.N,t.z)}}
+b7(){return A.a5(["defaultValue",null,"hint","Kommastellen mit . trennen"],t.N,t.z)}}
 A.z1.prototype={
 b7(){return A.a5(["defaultValue",this.a,"hint",this.b],t.N,t.z)}}
 A.qr.prototype={
@@ -110314,7 +110314,7 @@ F(a){var s,r,q,p=this,o=null,n=p.a.c,m=p.r||!1,l=n.r
 l=l.length!==0?A.aE(l,o,o,o,A.L(a).p3.b,B.V,o,o):B.U
 s=A.b6(a,o,t.w).w
 p.d===$&&A.a()
-r=A.aUf("Gerundet auf ganze Stunden")
+r=A.aUf("Kommastellen mit . trennen")
 q=p.e
 q===$&&A.a()
 return A.jy(new A.aY(B.dI,A.ba(o,A.K8(!0,B.bx,!0,o,!0,B.J,o,A.ab6(),q,o,o,o,o,2,r,B.P,!0,o,!0,o,!1,o,o,o,B.io,o,o,o,1,o,o,!1,"\u2022",o,new A.aD1(p),o,o,o,o,!1,o,!0,o,B.cE,o,o,B.bG,B.bh,o,o,o,o,o,o,B.V,o,B.dr,o,o,o,o),B.j,o,o,o,o,o,o,o,o,o,o,s.a.a),o),m,new A.aD2(p),n,l)}}
