@@ -27,3 +27,12 @@ messaging.onBackgroundMessage(function(payload) {
 //      notificationOptions);
 //  console.log('Title: ', notificationTitle, 'Options: ', notificationOptions);
   });
+
+ self.addEventListener('notificationclick', function(event) {
+   event.notification.close();
+
+   // Example: navigate to a specific URL on notification click
+   event.waitUntil(
+     clients.openWindow('/?source=notification')
+   );
+ });
