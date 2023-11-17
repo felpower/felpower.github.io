@@ -28,7 +28,7 @@ messaging.onBackgroundMessage(function(payload) {
 //  console.log('Title: ', notificationTitle, 'Options: ', notificationOptions);
   });
 
- self.addEventListener('notificationclick', function(event) {
+self.addEventListener('notificationclick', function(event) {
    event.notification.close();
 
    // Example: navigate to a specific URL on notification click
