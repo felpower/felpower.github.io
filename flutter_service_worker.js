@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "1073377a1fcd17b45802dbdc1927ff60",
-"assets/AssetManifest.bin.json": "25fac1c483199d3ff0f7bd014e70033d",
-"assets/AssetManifest.json": "560486a19049d3de9942427e63341f0c",
+const RESOURCES = {"assets/AssetManifest.bin": "bdc7657733d39b2dac625b11239f70c4",
+"assets/AssetManifest.bin.json": "c2852e808bb8fdf22193848618d4049a",
+"assets/AssetManifest.json": "125c8d4c94d1e89141aeacf36947fac0",
 "assets/assets/audio/bomb.wav": "6257b8d00aa498c54260229564862eea",
 "assets/assets/audio/game_start.wav": "b704ae71d6b7147492ce752f40a8f777",
 "assets/assets/audio/lost.wav": "3c66057ca30502bf8cda7383d070299c",
@@ -22,6 +22,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "1073377a1fcd17b45802dbdc1927ff60
 "assets/assets/instructions/ins_2.png": "204457164aa2f2bba5df87c3292792cb",
 "assets/assets/instructions/ins_3.png": "c7e06a8ea0cdad22899b409efd625d91",
 "assets/assets/instructions/ins_4.png": "523eee2872dfd691d0401b7fbeae9fbf",
+"assets/assets/instructions/ins_5.png": "dfe4d1b410050ff91bab69971044c977",
 "assets/assets/unityLevels.json": "16c85a0cff153ed57c93d58b099b9fbc",
 "assets/assets/videos/spinning_earth.mp4": "38fbb780635feb6721f71d3bab49ebc9",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
@@ -47,9 +48,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "1073377a1fcd17b45802dbdc1927ff60
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "88be5e169b05cbf7d4d38d48952ad54c",
+"index.html": "d8df44c642339ecaaaba6568c0e21036",
 "/": "7b6abe3c415e7ab3ba8e888074093615",
-"main.dart.js": "ebeb274fe4b726ff654a18305d469136",
+"main.dart.js": "4d3b1f57feb06eca0a34cacb18174667",
 "manifest.json": "071e4a0753903aa0a1b22e293aebb9b4",
 "sw.js": "b29c83a41fba109b7c7fed281182b3aa",
 "UnityLibrary/Build/UnityLibrary.data": "beb86763934b4360a5c64d88b69a4dcd",
