@@ -56993,7 +56993,7 @@ $1(a){return B.CK},
 $S:538}
 A.ajV.prototype={
 $1(a){var s=this,r=s.a,q=s.c,p=s.d,o=s.e,n=t.p
-return s.b instanceof A.tM?A.kw(A.b([A.f2(B.ma,new A.ajR(r,q,p,o,a),null)],n),B.a3J,24,B.Aj,B.ma):A.kw(A.b([A.b08(A.alH("assets/images/bombs/fish_1.png",50),B.a0J,new A.ajS(r,q,p,o,a)),A.b08(A.alH("assets/images/bombs/rainbow_fish.png",50),B.a0s,new A.ajT(r,q,p,o,a)),A.f2(B.ma,new A.ajU(r,q,p,o,a),null)],n),B.a3I,24,B.Aj,B.a0B)},
+return s.b instanceof A.tM?A.kw(A.b([A.f2(B.ma,new A.ajR(r,q,p,o,a),null)],n),B.a3J,24,B.Aj,B.ma):A.kw(A.b([A.b08(A.alH("assets/images/bombs/fish_1.png",50),B.a0I,new A.ajS(r,q,p,o,a)),A.b08(A.alH("assets/images/bombs/rainbow_fish.png",50),B.a0s,new A.ajT(r,q,p,o,a)),A.f2(B.ma,new A.ajU(r,q,p,o,a),null)],n),B.a3I,24,B.Aj,B.a0B)},
 $S:51}
 A.ajR.prototype={
 $0(){var s=this
@@ -57020,7 +57020,7 @@ return A.cm([null],t.H)},
 $S:0}
 A.ajP.prototype={
 $1(a){var s=null,r=A.aE("Sie m\xfcssen zuerst Level "+(this.a.c-1)+" freischalten",s,s,s,s,s,s,s)
-return A.kw(A.b([A.f2(B.a0N,new A.ajO(a),s)],t.p),s,s,s,r)},
+return A.kw(A.b([A.f2(B.a0M,new A.ajO(a),s)],t.p),s,s,s,r)},
 $S:51}
 A.ajO.prototype={
 $0(){A.cd(this.a,!1).ex("Ok")
@@ -57032,8 +57032,8 @@ if(o.c.a>=500){s=this.a
 r=""+s.c
 q=A.aE("Level "+r+" freischalten?",p,p,p,p,p,p,p)
 r=A.aE("Wollen Sie level "+r+" f\xfcr 500$ freischalten?",p,p,p,p,p,p,p)
-q=A.kw(A.b([A.f2(B.a0S,new A.ajL(a),p),A.f2(B.fG,new A.ajM(s,o,this.c,a),p)],n),r,24,B.cq,q)
-o=q}else o=A.kw(A.b([A.f2(B.fG,new A.ajN(a),p)],n),B.BW,24,B.cq,B.a0Q)
+q=A.kw(A.b([A.f2(B.a0R,new A.ajL(a),p),A.f2(B.fG,new A.ajM(s,o,this.c,a),p)],n),r,24,B.cq,q)
+o=q}else o=A.kw(A.b([A.f2(B.fG,new A.ajN(a),p)],n),B.BW,24,B.cq,B.a0P)
 return o},
 $S:51}
 A.ajL.prototype={
@@ -57430,9 +57430,9 @@ $.lx()[1].b=s+1+$.aQ_
 for(r=2;s=$.lx(),r<s.length;++r){s=s[r]
 q=s.b
 s.b=q+B.cW.nb($.aQ_-q)}a.ed("String","highScore",A.aSV(s))}},
-F(a){var s=this,r=null,q=A.DC(r,!0,r,A.aW5(new A.akG(a)),B.a0O),p=A.bb(r,r,B.j,r,r,B.n9,r,r,r,r,r,r,r,r),o=s.ah3(),n=s.azr(),m=s.d,l=s.e,k=t.p
+F(a){var s=this,r=null,q=A.DC(r,!0,r,A.aW5(new A.akG(a)),B.a0N),p=A.bb(r,r,B.j,r,r,B.n9,r,r,r,r,r,r,r,r),o=s.ah3(),n=s.azr(),m=s.d,l=s.e,k=t.p
 return A.aYJ(!1,A.qW(q,r,A.i7(B.be,A.b([p,A.aRU(A.b([new A.SJ(o,m,l,r,r,n,A.b9U(o),r)],k),r)],k),B.J,B.b4),r,r,r),B.PO,r,"")},
-ah3(){return A.b([B.Hr,B.Hs,new A.y9(B.a0L,new A.akE(this))],t.UR)},
+ah3(){return A.b([B.Hr,B.Hs,new A.y9(B.a0K,new A.akE(this))],t.UR)},
 azr(){var s,r,q,p,o,n,m,l=null,k=A.b([],t.yy)
 for(s=$.lx(),r=s.length,q=t.sa,p=0;p<s.length;s.length===r||(0,A.T)(s),++p){o=s[p]
 n=o.c
@@ -57544,7 +57544,7 @@ m=k.d
 return A.qW(o,l,new A.A_(A.i7(B.be,A.b([A.bb(l,l,B.j,l,l,B.DT,l,l,l,l,l,l,l,l),A.db(A.dn(new A.aX(B.In,A.bV(A.b([A.ky(l,l,new A.aFl(125),s,q),A.dK(new A.JK(new A.aFm(r),new A.hG(m,m.$ti.i("hG<1>")),l,t.ye),1)],p),B.y,B.cm,B.t),l),1000,500),1,l)],p),B.J,B.b4),l,!0,l),n,l,l)},
 axG(a,b){var s=null,r=A.b([B.I_,A.Vu(!0,B.Ke,new A.aF6(a),new A.cJ(A.j_(12),B.m),B.ex,B.BX,s),A.wt(A.Vu(!0,B.pb,new A.aF7(a),new A.cJ(A.j_(12),B.m),B.ex,B.a0j,s),!0)],t.p)
 if(b instanceof A.jO)r.push(A.fE(s,A.Vu(!0,B.K6,new A.aF8(this,a),new A.cJ(A.j_(12),B.m),B.ex,B.a0t,s),B.Q,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.aF9(this),s,s,s,s,s,s))
-r.push(A.wt(A.Vu(!0,B.pb,new A.aFa(),new A.cJ(A.j_(12),B.m),B.ex,B.a0G,s),!0))
+r.push(A.wt(A.Vu(!0,B.pb,new A.aFa(),new A.cJ(A.j_(12),B.m),B.ex,B.a0X,s),!0))
 return new A.Tk(A.aRU(r,s),s)},
 za(){var s=0,r=A.r(t.z),q=this,p,o,n,m
 var $async$za=A.t(function(a,b){if(a===1)return A.o(b,r)
@@ -57739,7 +57739,7 @@ A.tW.prototype={
 T(){return new A.a2j(new A.eb(B.bD,$.al()),B.i)}}
 A.a2j.prototype={
 F(a){var s=this,r=null
-return A.qW(A.DC(r,!0,r,r,B.Fh),r,A.aRU(A.b([A.wt(A.FH(new A.aD_(s),A.Fm(),t.N),!1),A.wt(A.pF(!1,B.a0W,B.j,r,r,r,r,r,new A.aD0(s,a),r,r),!1),A.wt(A.pF(!1,B.a0Y,B.j,r,r,r,r,r,new A.aD1(a),r,r),!1),A.wt(A.pF(!1,B.a0E,B.j,r,r,r,r,r,new A.aD2(s),r,r),!1),A.wt(A.Kc(!0,B.bz,!1,r,!0,B.J,r,A.abc(),s.e,r,r,r,r,2,B.KH,B.Q,!0,r,!0,r,!1,r,r,r,r,r,r,r,1,r,r,!1,"\u2022",r,r,r,r,r,r,!0,r,!0,r,B.cg,r,r,B.bI,B.bh,r,r,r,r,r,r,B.T,r,B.dt,r,r,r,r),!1),B.a0c,B.Ks,B.lU,B.a0K,B.a0u,B.Kt,B.il,B.a0R,B.Rr,B.a09,B.a0o,B.Ku,B.il,B.a0m,B.a0r,B.Kv,B.il,B.a0M,B.a0I,B.a0f,B.a0a,B.a0b,B.a0n,B.Kw,B.il,B.a0w,B.Rs,B.a0i,A.pF(!1,B.a1_,B.j,r,r,r,r,r,new A.aD3(a),r,r)],t.p),B.cg),r,r,r)},
+return A.qW(A.DC(r,!0,r,r,B.Fh),r,A.aRU(A.b([A.wt(A.FH(new A.aD_(s),A.Fm(),t.N),!1),A.wt(A.pF(!1,B.a0V,B.j,r,r,r,r,r,new A.aD0(s,a),r,r),!1),A.wt(A.pF(!1,B.a0Y,B.j,r,r,r,r,r,new A.aD1(a),r,r),!1),A.wt(A.pF(!1,B.a0E,B.j,r,r,r,r,r,new A.aD2(s),r,r),!1),A.wt(A.Kc(!0,B.bz,!1,r,!0,B.J,r,A.abc(),s.e,r,r,r,r,2,B.KH,B.Q,!0,r,!0,r,!1,r,r,r,r,r,r,r,1,r,r,!1,"\u2022",r,r,r,r,r,r,!0,r,!0,r,B.cg,r,r,B.bI,B.bh,r,r,r,r,r,r,B.T,r,B.dt,r,r,r,r),!1),B.a0c,B.Ks,B.lU,B.a0J,B.a0u,B.Kt,B.il,B.a0Q,B.Rr,B.a09,B.a0o,B.Ku,B.il,B.a0m,B.a0r,B.Kv,B.il,B.a0L,B.a0H,B.a0f,B.a0a,B.a0b,B.a0n,B.Kw,B.il,B.a0w,B.Rs,B.a0i,A.pF(!1,B.a1_,B.j,r,r,r,r,r,new A.aD3(a),r,r)],t.p),B.cg),r,r,r)},
 Am(){var s=0,r=A.r(t.H),q=this,p,o,n
 var $async$Am=A.t(function(a,b){if(a===1)return A.o(b,r)
 while(true)switch(s){case 0:o=A
@@ -57782,7 +57782,7 @@ A.a68.prototype={
 F(a){var s,r=this,q=null,p=A.db(A.dn(A.alH("assets/images/login/login-page.png",q),450,450),q,q),o=t.es,n=A.w9(!1,q,B.KF,!1,q,q,q,1,q,q,q,new A.aIs(r),q,q,B.am,new A.nQ(A.b([new A.qU("Enter first named"),new A.H1(3,"Minimum 3 charecter filled name")],o),$.zB).grf()),m=A.w9(!1,q,B.KC,!1,q,q,q,1,q,q,q,new A.aIt(r),q,q,B.am,new A.nQ(A.b([new A.qU("Enter last named"),new A.H1(3,"Last name should be atleast 3 charater")],o),$.zB).grf()),l=A.w9(!1,q,B.KD,!1,q,q,q,1,q,q,q,new A.aIu(r),q,q,B.am,new A.nQ(A.b([new A.qU("Enter email address"),new A.Tt("Please correct email filled")],o),$.zB).grf()),k=A.w9(!1,q,B.KG,!1,q,q,q,1,q,q,q,new A.aIv(r),q,q,B.am,new A.nQ(A.b([new A.qU("Enter mobile number"),new A.HH("(^[0-9]{8,16}$)","enter valid mobile number")],o),$.zB).grf())
 o=A.w9(!1,r.f,B.KB,!1,q,q,q,1,q,q,q,new A.aIw(r),new A.aIx(r,a),q,B.am,new A.nQ(A.b([new A.qU("Enter date of birth"),new A.HH("^(?:(?:31(\\/|-|\\.)(?:0?[13578]|1[02]))\\1|(?:(?:29|30)(\\/|-|\\.)(?:0?[13-9]|1[0-2])\\2))(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$|^(?:29(\\/|-|\\.)0?2\\3(?:(?:(?:1[6-9]|[2-9]\\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\\d|2[0-8])(\\/|-|\\.)(?:(?:0?[1-9])|(?:1[0-2]))\\4(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$","enter valid date of birth")],o),$.zB).grf())
 s=A.b6(a,q,t.w).w
-return A.qW(q,q,A.auJ(new A.aX(B.jY,A.aRy(q,A.bV(A.b([new A.aX(B.Ir,p,q),new A.aX(B.jY,n,q),new A.aX(B.d2,m,q),new A.aX(B.d2,l,q),new A.aX(B.d2,k,q),new A.aX(B.d2,o,q),A.db(new A.aX(B.IH,A.dn(A.pF(!1,B.a0X,B.j,q,q,q,q,q,new A.aIy(r,a),q,q),50,s.a.a),q),q,q)],t.p),B.bk,B.w,B.t),r.e),q)),q,q,q)}}
+return A.qW(q,q,A.auJ(new A.aX(B.jY,A.aRy(q,A.bV(A.b([new A.aX(B.Ir,p,q),new A.aX(B.jY,n,q),new A.aX(B.d2,m,q),new A.aX(B.d2,l,q),new A.aX(B.d2,k,q),new A.aX(B.d2,o,q),A.db(new A.aX(B.IH,A.dn(A.pF(!1,B.a0W,B.j,q,q,q,q,q,new A.aIy(r,a),q,q),50,s.a.a),q),q,q)],t.p),B.bk,B.w,B.t),r.e),q)),q,q,q)}}
 A.aIs.prototype={
 $1(a){this.a.d.n(0,"firstName",a)},
 $S:39}
@@ -57904,7 +57904,7 @@ $S:67}
 A.Bh.prototype={
 F(a){var s=null
 this.Em()
-return new A.A_(A.qW(A.DC(s,!1,s,s,B.a0P),s,B.a0h,s,s,s),s,!1,s)},
+return new A.A_(A.qW(A.DC(s,!1,s,s,B.a0O),s,B.a0h,s,s,s),s,!1,s)},
 Em(){var s=0,r=A.r(t.z)
 var $async$Em=A.t(function(a,b){if(a===1)return A.o(b,r)
 while(true)switch(s){case 0:s=2
@@ -116923,11 +116923,11 @@ B.jk=new A.tw(B.Cn,null,null,null,null,null,null,null)
 B.Ff=new A.kB(B.P,null,null,B.jk,null)
 B.BQ=new A.v(!0,B.n,null,null,null,null,24,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.T=new A.lf(2,"center")
-B.a0U=new A.b8("Tippe Hier!",null,B.BQ,B.T,null,null,null,null,null,null)
+B.a0T=new A.b8("Tippe Hier!",null,B.BQ,B.T,null,null,null,null,null,null)
 B.dS=new A.qp(4,"transparency")
 B.j=new A.xR(0,"none")
 B.B=new A.aN(2e5)
-B.Q3=new A.zr(B.a0U,B.dS,0,null,null,null,null,null,!0,B.j,B.B,null,null)
+B.Q3=new A.zr(B.a0T,B.dS,0,null,null,null,null,null,!0,B.j,B.B,null,null)
 B.Fg=new A.kB(B.P,null,null,B.Q3,null)
 B.a0p=new A.b8("Instruktionen zum Spiel",null,null,null,null,null,null,null,null,null)
 B.Fh=new A.kB(B.P,null,null,B.a0p,null)
@@ -117101,8 +117101,8 @@ B.jF=new A.tK(B.iF,null,null,null,null,null,null,null)
 B.Hq=new A.aeT(1,"latency")
 B.a0Z=new A.b8("Name",null,null,null,null,null,null,null,null,null)
 B.Hs=new A.y9(B.a0Z,null)
-B.a0T=new A.b8("Rang",null,null,null,null,null,null,null,null,null)
-B.Hr=new A.y9(B.a0T,null)
+B.a0S=new A.b8("Rang",null,null,null,null,null,null,null,null,null)
+B.Hr=new A.y9(B.a0S,null)
 B.Ht=new A.aeX(0,"asset")
 B.Hu=new A.Ey(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.cY=new A.nf(0,"calendar")
@@ -119313,8 +119313,8 @@ B.UU=new A.mq(3,"hide")
 B.a5R=new A.mq(4,"remove")
 B.Bo=new A.mq(5,"timeout")
 B.UV=new A.AF(null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a0H=new A.b8("Device Token copied to ClipBoard successfully",null,null,null,null,null,null,null,null,null)
-B.UW=new A.w_(B.a0H,null,null,null,null,null,null,null,null,null,null,null,null,B.bY,null,null,B.op,B.J,null)
+B.a0G=new A.b8("Device Token copied to ClipBoard successfully",null,null,null,null,null,null,null,null,null)
+B.UW=new A.w_(B.a0G,null,null,null,null,null,null,null,null,null,null,null,null,B.bY,null,null,B.op,B.J,null)
 B.Bp=new A.Zv(0,"permissive")
 B.a5S=new A.Zv(1,"normal")
 B.UX=new A.Jz(0,"html")
@@ -119756,21 +119756,21 @@ B.a0C=new A.b8("Nein",null,null,null,null,null,null,null,null,null)
 B.a0D=new A.b8("Feedback Seite",null,null,null,null,null,null,null,null,null)
 B.a0E=new A.b8("Check Push Permission",null,null,null,null,null,null,null,null,null)
 B.a0F=new A.b8("",null,null,null,null,null,null,null,null,null)
-B.a0G=new A.b8("Imprint New Tab",null,null,null,null,null,null,null,null,null)
-B.a0I=new A.b8("Nutze Booster bzw. Sonderjellies, um schwierige Level zu meistern. Diese k\xf6nnen durch Spielverlauf oder K\xe4ufe (direkt vor dem Levelstart) erworben werden.",null,null,null,null,null,null,null,null,null)
-B.a0J=new A.b8("100$",null,B.m8,null,null,null,null,null,null,null)
-B.a0K=new A.b8("2.\tSpielz\xfcge:",null,B.br,null,null,null,null,null,null,null)
-B.a0L=new A.b8("XP",null,null,null,null,null,null,null,null,null)
-B.a0M=new A.b8("6.\tBooster: ",null,B.br,null,null,null,null,null,null,null)
-B.a0N=new A.b8("Ok",null,null,null,null,null,null,null,null,null)
-B.a0O=new A.b8("High Score",null,null,null,null,null,null,null,null,null)
-B.a0P=new A.b8("Information",null,null,null,null,null,null,null,null,null)
+B.a0H=new A.b8("Nutze Booster bzw. Sonderjellies, um schwierige Level zu meistern. Diese k\xf6nnen durch Spielverlauf oder K\xe4ufe (direkt vor dem Levelstart) erworben werden.",null,null,null,null,null,null,null,null,null)
+B.a0I=new A.b8("100$",null,B.m8,null,null,null,null,null,null,null)
+B.a0J=new A.b8("2.\tSpielz\xfcge:",null,B.br,null,null,null,null,null,null,null)
+B.a0K=new A.b8("XP",null,null,null,null,null,null,null,null,null)
+B.a0L=new A.b8("6.\tBooster: ",null,B.br,null,null,null,null,null,null,null)
+B.a0M=new A.b8("Ok",null,null,null,null,null,null,null,null,null)
+B.a0N=new A.b8("High Score",null,null,null,null,null,null,null,null,null)
+B.a0O=new A.b8("Information",null,null,null,null,null,null,null,null,null)
 B.BW=new A.b8("Sie k\xf6nnen M\xfcnzen durch Spielen der Levels erhalten",null,null,null,null,null,null,null,null,null)
-B.a0Q=new A.b8("Sie haben nicht genug M\xfcnzen um dieses Level freizuschalten",null,null,null,null,null,null,null,null,null)
-B.a0R=new A.b8("3.\tKombinationen und Boni:",null,B.br,null,null,null,null,null,null,null)
-B.a0S=new A.b8("Abbrechen",null,null,null,null,null,null,null,null,null)
-B.a0W=new A.b8("Copy",null,null,null,null,null,null,null,null,null)
-B.a0X=new A.b8("Register",null,B.BS,null,null,null,null,null,null,null)
+B.a0P=new A.b8("Sie haben nicht genug M\xfcnzen um dieses Level freizuschalten",null,null,null,null,null,null,null,null,null)
+B.a0Q=new A.b8("3.\tKombinationen und Boni:",null,B.br,null,null,null,null,null,null,null)
+B.a0R=new A.b8("Abbrechen",null,null,null,null,null,null,null,null,null)
+B.a0V=new A.b8("Copy",null,null,null,null,null,null,null,null,null)
+B.a0W=new A.b8("Register",null,B.BS,null,null,null,null,null,null,null)
+B.a0X=new A.b8("Imprint",null,null,null,null,null,null,null,null,null)
 B.a0Y=new A.b8("Token not showing, reload page",null,null,null,null,null,null,null,null,null)
 B.a1_=new A.b8("Spiel jetzt starten",null,null,B.T,null,null,null,null,null,null)
 B.BX=new A.b8("Feedback senden",null,null,null,null,null,null,null,null,null)
@@ -119979,8 +119979,8 @@ B.Cm=new A.az6(0,"start")
 B.a0e=new A.b8('Um einen Booster auszuw\xe4hlen, klicken Sie auf den entsprechenden Button,\noder starten Sie das Spiel ohne einen Booster indem Sie auf "Spiel starten" klicken',null,null,null,null,null,null,null,null,null)
 B.NQ=A.b(s([B.a0e]),t.p)
 B.a3I=new A.Bu(B.NQ,null)
-B.a0V=new A.b8("Wollen Sie das aktuelle Level starten?",null,null,null,null,null,null,null,null,null)
-B.MU=A.b(s([B.a0V]),t.p)
+B.a0U=new A.b8("Wollen Sie das aktuelle Level starten?",null,null,null,null,null,null,null,null,null)
+B.MU=A.b(s([B.a0U]),t.p)
 B.a3J=new A.Bu(B.MU,null)
 B.aA=new A.By(0,"forward")
 B.iE=new A.By(1,"reverse")
