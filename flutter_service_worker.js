@@ -48,9 +48,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "e5f18d417be7aee6215268059b3412e4
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "08d66a3a5b177dab490e139269d2a326",
+"index.html": "6344a8685299e794d6641ee922a81edf",
 "/": "5739177ba865ab00e67adc8c77a0938c",
-"main.dart.js": "6f3cff3996e663c6e99e04035286e865",
+"main.dart.js": "0e20c1741a62ff47b1225e6d5e3d36fd",
 "manifest.json": "071e4a0753903aa0a1b22e293aebb9b4",
 "UnityLibrary/Build/UnityLibrary.data": "52cf6860682f3fd30aaee0146e3f11cb",
 "UnityLibrary/Build/UnityLibrary.framework.js": "2e2fd2497266effe4ecdb5b2c027dee2",
@@ -70,7 +70,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "e5f18d417be7aee6215268059b3412e4
 "UnityLibrary/TemplateData/unity-logo-light.png": "daf8545f18a102b4fa8f693681c2ffe0",
 "UnityLibrary/TemplateData/webgl-logo.png": "0c09503c39e9a26675e5f56d82f061b3",
 "UnityLibrary/TemplateData/webmemd-icon.png": "e409a6f1c955c2babb36cd2153d418b5",
-"version.json": "0ea410cab75b39fe45c4636f2aaf6001"};
+"version.json": "1b8d35baf3f5c5c55db92bd595bc49c1"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
