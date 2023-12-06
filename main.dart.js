@@ -32479,7 +32479,7 @@ _.c=e
 _.d=f
 _.e=g
 _.f=h},
-fe(a,b,c,d){return new A.X8(d,a,c,!1,"Next",!0,!0,!0)},
+fe(a,b,c,d){return new A.X8(d,a,c,b,"Next",!0,!0,!0)},
 X8:function X8(a,b,c,d,e,f,g,h){var _=this
 _.r=a
 _.y=b
@@ -57337,7 +57337,7 @@ s=1
 break
 case 1:return A.p(q,r)}})
 return A.q($async$Mr,r)},
-awG(){var s="Spieldauer",r=A.aXM(A.aZ8(),A.b([A.FM("Weiter",null,"Zum Abschluss der Studie w\xe4ren wir Ihnen dankbar, wenn Sie noch ein paar letzte Fragen beantworten w\xfcrden. Dies wird maximal 5 Minuten in Anspruch nehmen.  Vielen Dank!","Liebe Studienteilnehmer:innen, vielen Dank f\xfcr Ihre Teilnahme."),A.fe(B.T2,!1,A.e6("1"),"Haben Sie das Spiel bis zum Ende bzw. bis zum jetzigen Zeitpunkt gespielt?"),A.fe(B.P_,!1,A.e6("2"),"Aus welchem Grund/welchen Gr\xfcnden haben Sie das Spiel abgebrochen/nicht mehr gespielt?"),A.fe(B.AT,!1,A.e6("3"),"Wenn Sie an das Spielen zur\xfcckdenken \u2013 hatten Sie w\xe4hrend oder nach dem Spielen den Eindruck, dass bestimmte Spiel-Features Ihr Verhalten beeinflussen wollten?"),A.FM("Next",A.e6("4"),"Inwiefern hatten Sie das Gef\xfchl, Ihr Spielverhalten sei m\xf6glicherweise beeinflusst worden?",s),A.fe(B.T1,!1,A.e6("5"),s),A.fe(B.T5,!1,A.e6("6"),"Spielh\xe4ufigkeit"),A.fe(B.vN,!1,A.e6("7"),"Was ist ihnen aufgefallen?"),A.fe(B.vN,!1,A.e6("8"),"Bei welchen dieser Features hatten Sie den Eindruck, dass davon Ihr Spielverhalten beeinflusst wurde?"),A.fe(B.AT,!1,A.e6("9"),"Haben Sie Push-Nachrichten erhalten?"),A.fe(B.T6,!1,A.e6("10"),"Wie empfanden Sie die H\xe4ufigkeit der Push-Nachrichten?"),A.fe(B.T8,!1,A.e6("11"),"Wie passend war(en) die Uhrzeit(en) der Push-Nachricht(en) f\xfcr Sie?"),A.fe(B.n7,!1,A.e6("12"),"Welche Uhrzeit(en) w\xe4re(n) besser gewesen?"),A.fe(B.n7,!1,A.e6("13"),"M\xf6chten Sie zu dieser Studie oder zum besseren Verst\xe4ndnis Ihrer Antworten noch etwas anmerken?"),A.aV6("Studie beenden",A.e6("14"),"Vielen Dank f\xfcr Ihre Teilnahme! Diese Studie diente dem Erfassen von nat\xfcrlichem Spielverhalten bei Handy/Tabletspielen und dem Einfluss sogenannter Dark Patterns. Unter Dark Patterns versteht man Features/Eigenschaften des Spiels, die dazu dienen sollen, den Spieler zu h\xe4ufigerem oder l\xe4ngerem Spielen zu animieren oder Geld f\xfcr oder im Spiel auszugeben. Mit Ihrer Teilnahme leisten Sie einen wichtigen Beitrag dazu, den Einfluss solcher Dark Patterns noch genauer zu verstehen. Damit k\xf6nnen Spieler in Zukunft besser \xfcber deren Auswirkungen aufgekl\xe4rt und das Spielen solcher Spiele sicherer gestaltet werden.","Fertig!")],t.SV)),q=r.b
+awG(){var s="Spieldauer",r=A.aXM(A.aZ8(),A.b([A.FM("Weiter",null,"Zum Abschluss der Studie w\xe4ren wir Ihnen dankbar, wenn Sie noch ein paar letzte Fragen beantworten w\xfcrden. Dies wird maximal 5 Minuten in Anspruch nehmen.  Vielen Dank!","Liebe Studienteilnehmer:innen, vielen Dank f\xfcr Ihre Teilnahme."),A.fe(B.T2,!1,A.e6("1"),"Haben Sie das Spiel bis zum Ende bzw. bis zum jetzigen Zeitpunkt gespielt?"),A.fe(B.P_,!1,A.e6("2"),"Aus welchem Grund/welchen Gr\xfcnden haben Sie das Spiel abgebrochen/nicht mehr gespielt?"),A.fe(B.AT,!1,A.e6("3"),"Wenn Sie an das Spielen zur\xfcckdenken \u2013 hatten Sie w\xe4hrend oder nach dem Spielen den Eindruck, dass bestimmte Spiel-Features Ihr Verhalten beeinflussen wollten?"),A.FM("Next",A.e6("4"),"Inwiefern hatten Sie das Gef\xfchl, Ihr Spielverhalten sei m\xf6glicherweise beeinflusst worden?",s),A.fe(B.T1,!1,A.e6("5"),s),A.fe(B.T5,!1,A.e6("6"),"Spielh\xe4ufigkeit"),A.fe(B.vN,!1,A.e6("7"),"Ist Ihnen etwas aufgefallen?"),A.fe(B.vN,!1,A.e6("8"),"Bei welchen dieser Features hatten Sie den Eindruck, dass davon Ihr Spielverhalten beeinflusst wurde?"),A.fe(B.AT,!1,A.e6("9"),"Haben Sie Push-Nachrichten erhalten?"),A.fe(B.T6,!1,A.e6("10"),"Wie empfanden Sie die H\xe4ufigkeit der Push-Nachrichten?"),A.fe(B.T8,!1,A.e6("11"),"Wie passend war(en) die Uhrzeit(en) der Push-Nachricht(en) f\xfcr Sie?"),A.fe(B.n7,!1,A.e6("12"),"Welche Uhrzeit(en) w\xe4re(n) besser gewesen?"),A.fe(B.n7,!0,A.e6("13"),"M\xf6chten Sie zu dieser Studie oder zum besseren Verst\xe4ndnis Ihrer Antworten noch etwas anmerken?"),A.aV6("Studie beenden",A.e6("14"),"Vielen Dank f\xfcr Ihre Teilnahme! Diese Studie diente dem Erfassen von nat\xfcrlichem Spielverhalten bei Handy/Tabletspielen und dem Einfluss sogenannter Dark Patterns. Unter Dark Patterns versteht man Features/Eigenschaften des Spiels, die dazu dienen sollen, den Spieler zu h\xe4ufigerem oder l\xe4ngerem Spielen zu animieren oder Geld f\xfcr oder im Spiel auszugeben. Mit Ihrer Teilnahme leisten Sie einen wichtigen Beitrag dazu, den Einfluss solcher Dark Patterns noch genauer zu verstehen. Damit k\xf6nnen Spieler in Zukunft besser \xfcber deren Auswirkungen aufgekl\xe4rt und das Spielen solcher Spiele sicherer gestaltet werden.","Fertig!")],t.SV)),q=r.b
 r.td(q[1].a,new A.lz(new A.aJ4(r)))
 r.td(q[3].a,new A.lz(new A.aJ5(r)))
 r.td(q[9].a,new A.lz(new A.aJ6(r)))
@@ -109512,7 +109512,7 @@ A.Qv.prototype={$ic1:1}
 A.DY.prototype={
 MX(a){return new A.RM(this,new A.ag(Date.now(),!1),"",null)},
 b7(){var s=this
-return A.V(["stepIdentifier",s.a,"isOptional",!1,"buttonText",s.c,"showAppBar",!0,"title",s.r,"text",s.w,"assetPath",""],t.N,t.z)},
+return A.V(["stepIdentifier",s.a,"isOptional",s.b,"buttonText",s.c,"showAppBar",!0,"title",s.r,"text",s.w,"assetPath",""],t.N,t.z)},
 k(a,b){if(b==null)return!1
 return this.Sh(0,b)&&b instanceof A.DY&&b.r===this.r&&b.w===this.w},
 gu(a){var s=this
@@ -109520,7 +109520,7 @@ return A.fH.prototype.gu.call(s,s)^B.d.gu(s.r)^B.d.gu(s.w)}}
 A.FL.prototype={
 MX(a){return new A.Uq(this,new A.ag(Date.now(),!1),null)},
 b7(){var s=this,r=t.N,q=t.z
-return A.V(["stepIdentifier",A.V(["id",s.a.a],r,q),"isOptional",!1,"buttonText",s.c,"canGoBack",s.d,"showProgress",s.e,"showAppBar",!0,"title",s.r,"text",s.w],r,q)},
+return A.V(["stepIdentifier",A.V(["id",s.a.a],r,q),"isOptional",s.b,"buttonText",s.c,"canGoBack",s.d,"showProgress",s.e,"showAppBar",!0,"title",s.r,"text",s.w],r,q)},
 k(a,b){if(b==null)return!1
 return this.Sh(0,b)&&b instanceof A.FL&&b.r===this.r&&b.w===this.w},
 gu(a){var s=this
@@ -109544,16 +109544,15 @@ case B.a0O:t.XT.a(a)
 return new A.FC(r,q)
 default:throw A.c(new A.Qv())}},
 b7(){var s=this
-return A.V(["stepIdentifier",s.a,"isOptional",!1,"buttonText",s.c,"showAppBar",!0,"title",s.r,"text","","answerFormat",s.y],t.N,t.z)}}
+return A.V(["stepIdentifier",s.a,"isOptional",s.b,"buttonText",s.c,"showAppBar",!0,"title",s.r,"text","","answerFormat",s.y],t.N,t.z)}}
 A.fH.prototype={
 k(a,b){var s
 if(b==null)return!1
 if(b instanceof A.fH){s=b.a
-if(s.a===this.a.a)s=b.c===this.c
-else s=!1}else s=!1
+s=s.a===this.a.a&&b.b===this.b&&b.c===this.c}else s=!1
 return s},
-gu(a){var s=B.d.gu(this.a.a)
-return s^218159^B.d.gu(this.c)}}
+gu(a){var s=B.d.gu(this.a.a),r=this.b?519018:218159
+return s^r^B.d.gu(this.c)}}
 A.Jp.prototype={
 X(){return new A.a76(B.i)}}
 A.a76.prototype={
@@ -109686,14 +109685,13 @@ r.e!==$&&A.bl()
 r.e=new A.ag(s,!1)},
 F(a){var s,r,q,p,o=this,n=null,m=o.a.c,l=m.r
 l=l.length!==0?A.aG(l,n,n,n,A.L(a).p3.b,B.S,n,n):B.V
-o.a.toString
-s=o.f
+s=o.a.c.b||o.f!=null
 r=A.aG("",n,n,n,A.L(a).p3.z,B.S,n,n)
 q=A.Eq(B.cl)
 o.gvR().gaE8()
 o.gvR().gaCY()
 p=t.p
-return A.jr(A.c8(A.b([new A.be(B.dB,r,n),A.c8(A.b([q,void 1,void 1],p),B.z,B.B,B.y)],p),B.z,B.B,B.y),s!=null,new A.azb(o),m,l)}}
+return A.jr(A.c8(A.b([new A.be(B.dB,r,n),A.c8(A.b([q,void 1,void 1],p),B.z,B.B,B.y)],p),B.z,B.B,B.y),s,new A.azb(o),m,l)}}
 A.azb.prototype={
 $0(){var s,r,q=this.a,p=q.a.c,o=q.e
 o===$&&A.a()
@@ -109725,10 +109723,10 @@ s=s==null?null:s.d
 if(s==null)s=r.grD().gayv()
 r.r=s},
 ajL(a){this.T(new A.aBd(this,a))},
-F(a){var s=this,r=null,q=s.a.c,p=s.r,o=q.r
+F(a){var s=this,r=null,q=s.a.c,p=q.b||s.r!=null,o=q.r
 o=o.length!==0?A.aG(o,r,r,r,A.L(a).p3.b,B.S,r,r):B.V
 s.a.toString
-return A.jr(A.c8(A.b([new A.be(B.dB,A.aG("",r,r,r,A.L(a).p3.z,B.S,r,r),r),new A.Hv(new A.aBg(s),new A.aBh(s),r)],t.p),B.z,B.B,B.y),p!=null,new A.aBi(s),q,o)},
+return A.jr(A.c8(A.b([new A.be(B.dB,A.aG("",r,r,r,A.L(a).p3.z,B.S,r,r),r),new A.Hv(new A.aBg(s),new A.aBh(s),r)],t.p),B.z,B.B,B.y),p,new A.aBi(s),q,o)},
 ae2(){var s,r,q,p,o,n=this,m=null,l=n.c
 l.toString
 l=A.bj(m,m,B.j,A.L(l).fr,m,m,m,80,m,m,m,m,m,1/0)
@@ -109808,7 +109806,7 @@ s.R8$=$.as()
 s.p4$=0
 this.au()},
 Ut(a){this.T(new A.aCb(this,a))},
-F(a){var s,r,q,p=this,o=null,n=p.a.c,m=p.r||!1,l=n.r
+F(a){var s,r,q,p=this,o=null,n=p.a.c,m=p.r||n.b,l=n.r
 l=l.length!==0?A.aG(l,o,o,o,A.L(a).p3.b,B.S,o,o):B.V
 s=A.b5(a,o,t.w).w
 p.d===$&&A.a()
@@ -109857,7 +109855,7 @@ r=A.pt(!1,A.aG(o.gant().gaGa(),n,n,n,n,n,n,n),B.j,n,n,n,n,n,new A.aEE(o),n,n)
 q=o.r
 q=q.length!==0?new A.nq(1,B.eu,new A.be(B.jF,A.aG(q.split("/")[o.r.split("/").length-1],n,n,n,A.ht(n,n,n,n,n,n,n,n,n,n,n,12,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),n,n,n),n),n):A.e5(n,n,n)
 p=t.p
-return A.jr(new A.be(B.dC,A.bj(n,A.c8(A.b([new A.be(B.HO,A.eI(A.b([r,q],p),B.z,B.eR,B.y,n),n)],p),B.z,B.B,B.y),B.j,n,n,n,n,n,n,n,n,n,n,s.a.a),n),!1,new A.aEF(o),m,l)},
+return A.jr(new A.be(B.dC,A.bj(n,A.c8(A.b([new A.be(B.HO,A.eI(A.b([r,q],p),B.z,B.eR,B.y,n),n)],p),B.z,B.B,B.y),B.j,n,n,n,n,n,n,n,n,n,n,s.a.a),n),m.b,new A.aEF(o),m,l)},
 aqi(){var s=this.c
 s.toString
 return A.p_(new A.aED(this),s,t.H)},
@@ -109954,7 +109952,7 @@ s.R8$=$.as()
 s.p4$=0
 this.au()},
 Wk(a){this.T(new A.aF9(this,a))},
-F(a){var s,r,q,p=this,o=null,n=p.a.c,m=p.r||!1,l=n.r
+F(a){var s,r,q,p=this,o=null,n=p.a.c,m=p.r||n.b,l=n.r
 l=l.length!==0?A.aG(l,o,o,o,A.L(a).p3.b,B.S,o,o):B.V
 s=A.b5(a,o,t.w).w
 r=p.d
@@ -110001,7 +109999,7 @@ r.f=s==null?r.gWV().gaGf():s
 s=Date.now()
 r.d!==$&&A.bl()
 r.d=new A.ag(s,!1)},
-F(a){var s,r=this,q=null,p=r.a.c,o=J.kr(r.f),n=r.a.c.r
+F(a){var s,r=this,q=null,p=r.a.c,o=p.b||J.kr(r.f),n=r.a.c.r
 n=n.length!==0?A.aG(n,q,q,q,A.L(a).p3.b,B.S,q,q):B.V
 r.a.toString
 s=A.aG("",q,q,q,A.L(a).p3.z,B.S,q,q)
@@ -110035,7 +110033,7 @@ q.f=s==null?B.po:s
 s=Date.now()
 q.d!==$&&A.bl()
 q.d=new A.ag(s,!1)},
-F(a){var s,r,q,p,o,n=this,m=null,l=n.a.c,k=J.kr(n.f),j=n.a.c.r
+F(a){var s,r,q,p,o,n=this,m=null,l=n.a.c,k=l.b||J.kr(n.f),j=n.a.c.r
 j=j.length!==0?A.aG(j,m,m,m,A.L(a).p3.b,B.S,m,m):B.V
 n.a.toString
 s=A.aG("",m,m,m,A.L(a).p3.z,B.S,m,m)
@@ -110087,7 +110085,7 @@ s.d=t.aB.a(s.a.c.y)
 s.gWW().gaB6().i7(0,new A.aGt(),t.QX).dP(0)},
 m(){this.gKy().a4(0,new A.aGs())},
 afr(a){this.T(new A.aGn(this,a))},
-F(a){var s,r,q,p,o=this,n=null,m=o.a.c,l=o.r||!1,k=m.r
+F(a){var s,r,q,p,o=this,n=null,m=o.a.c,l=o.r||m.b,k=m.r
 k=k.length!==0?A.aG(k,n,n,n,A.L(a).p3.b,B.S,n,n):B.V
 o.a.toString
 s=A.aG("",n,n,n,A.L(a).p3.z,B.S,n,n)
@@ -110189,7 +110187,7 @@ q.f=s==null?null:s
 s=Date.now()
 q.d!==$&&A.bl()
 q.d=new A.ag(s,!1)},
-F(a){var s,r,q,p,o,n=this,m=null,l=n.a.c,k=n.f,j=l.r
+F(a){var s,r,q,p,o,n=this,m=null,l=n.a.c,k=l.b||n.f!=null,j=l.r
 j=j.length!==0?A.aG(j,m,m,m,A.L(a).p3.b,B.S,m,m):B.V
 n.a.toString
 s=A.aG("",m,m,m,A.L(a).p3.z,B.S,m,m)
@@ -110200,7 +110198,7 @@ p===$&&A.a()
 p=p.a
 o=A.Z(p).i("a7<1,ob>")
 B.b.M(q,A.ae(new A.a7(p,new A.aII(n),o),!0,o.i("ar.E")))
-return A.jr(new A.be(B.er,A.c8(A.b([new A.be(B.dB,s,m),A.c8(q,B.z,B.B,B.y)],r),B.z,B.B,B.y),m),k!=null,new A.aIJ(n),l,j)}}
+return A.jr(new A.be(B.er,A.c8(A.b([new A.be(B.dB,s,m),A.c8(q,B.z,B.B,B.y)],r),B.z,B.B,B.y),m),k,new A.aIJ(n),l,j)}}
 A.aIJ.prototype={
 $0(){var s,r,q=this.a,p=q.a.c,o=q.d
 o===$&&A.a()
@@ -110249,8 +110247,7 @@ s.p4$=0
 this.au()},
 F(a){var s,r,q,p,o,n=this,m=null,l=n.a.c,k=l.r
 k=k.length!==0?A.aG(k,m,m,m,A.L(a).p3.b,B.S,m,m):B.V
-if(!n.r){n.a.toString
-s=!1}else s=!0
+s=n.r||n.a.c.b
 n.a.toString
 r=A.aG("",m,m,m,A.L(a).p3.z,B.S,m,m)
 q=A.b5(a,m,t.w).w
@@ -110292,7 +110289,7 @@ s=s==null?null:s.d
 if(s==null){s=r.gaup()
 s=s.gayw(s)}r.f=s},
 F(a){var s,r=this,q=null,p=r.a.c
-r.f===$&&A.a()
+if(!p.b)r.f===$&&A.a()
 s=p.r
 s=s.length!==0?A.aG(s,q,q,q,A.L(a).p3.b,B.S,q,q):B.V
 r.a.toString
@@ -110345,7 +110342,7 @@ $S:0}
 A.Z9.prototype={
 F(a){var s=A.ma(a,!1,t.BY)
 return this.ag3(0,s,a)},
-ag3(a,b,c){var s=this,r=null,q=A.L(c),p=s.r,o=p||!1?new A.auG(s,b,c):r,n=s.c.c.toUpperCase()
+ag3(a,b,c){var s=this,r=null,q=A.L(c),p=s.r,o=p||s.c.b?new A.auG(s,b,c):r,n=s.c.c.toUpperCase()
 if(n==null)n="Next"
 return new A.fi(1/0,1/0,A.bj(r,A.du(A.aR6(A.c8(A.b([new A.be(B.dC,s.d,r),s.e,new A.be(B.dC,new A.W2(o,r,r,r,r,B.j,r,!1,r,!0,A.aG(n,r,r,r,A.ht(r,r,p?A.L(c).fr:B.cl,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),r),r)],t.p),B.z,B.cH,B.y)),r,r),B.j,q.ax.CW,r,r,r,r,r,r,r,r,r,r),r)}}
 A.auG.prototype={
