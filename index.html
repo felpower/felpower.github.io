@@ -19,7 +19,7 @@
     <link href="manifest.json" rel="manifest">
     <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "3866941223";
+    const serviceWorkerVersion = "212781709";
 
 
 
@@ -58,5 +58,17 @@
 
 
 </script>
+<script>
+  function setupBeforeUnloadListener() {
+    window.addEventListener("beforeunload", (event) => {
+      event.preventDefault();
+      handleBeforeUnload(); // This will call the Dart function
+      return null;
+    });
+  }
+</script>
+
+
+
 </body>
 </html>

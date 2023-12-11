@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "d0d07f0611e9a596a721ae9d4eb3885e",
-"assets/AssetManifest.bin.json": "0d268e91158a158acc08565cd76709a4",
-"assets/AssetManifest.json": "8420219d49c0547d9ad9d8cf5bfda833",
+const RESOURCES = {"assets/AssetManifest.bin": "8e97804f5fed500b1813e2fb29b9e796",
+"assets/AssetManifest.bin.json": "7889c62989bd13ca2e2172f7e18a3c13",
+"assets/AssetManifest.json": "b8a34a0807336e88e1ae60a8b0f6b3eb",
 "assets/assets/icons/android-chrome-512x512.png": "804902361a3dfaef9882feeacf531036",
 "assets/assets/images/background/background_new.png": "aec8b96e08795e2884f58eb69720dc39",
 "assets/assets/images/background/background_new2.png": "9cfd7af4bcc161f809aed516ac52aa2e",
@@ -20,6 +20,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "d0d07f0611e9a596a721ae9d4eb3885e
 "assets/assets/instructions/ins_3.png": "9fd62c0e8710426f8708e68135edddf0",
 "assets/assets/instructions/ins_4.png": "d97d3acb15bbc77c549ad34eba2d94ec",
 "assets/assets/instructions/ins_5.png": "b50f0bd4e9191c3d916e9d6c0fa5f26a",
+"assets/assets/instructions/ins_5_alt.png": "8b0ccab8054c543bda862fe6b64037ab",
 "assets/assets/unityLevels.json": "f4a58f7144db065c6fd257a707c50f73",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "13562b66f2a43b61f33e30a7d752c371",
@@ -45,9 +46,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "d0d07f0611e9a596a721ae9d4eb3885e
 "flutter.js": "5aee128657b91f4e3e1eeec85c7ee066",
 "icons/Icon-192.png": "1b053054a6b03d313d113f8608135878",
 "icons/Icon-512.png": "804902361a3dfaef9882feeacf531036",
-"index.html": "94f8f944d610a8b4a47645b7a4c2b37a",
-"/": "94f8f944d610a8b4a47645b7a4c2b37a",
-"main.dart.js": "1568c6af0b9720cc9c82b7c6811ebe6b",
+"index.html": "6abc9e1edc4f1fc57309d2b34bc9b2d9",
+"/": "6abc9e1edc4f1fc57309d2b34bc9b2d9",
+"main.dart.js": "e8720a3d47388e936cf1e74998aed355",
 "manifest.json": "8a30a71d689a5fe636d33599e3f6a741",
 "UnityLibrary/Build/UnityLibrary.data": "f2822e4a03f20dcd6394d5bbd22a2679",
 "UnityLibrary/Build/UnityLibrary.framework.js": "8791a0715670824db384025d976ab54c",
