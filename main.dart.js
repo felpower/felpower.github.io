@@ -56938,13 +56938,13 @@ s=1
 break}if(!A.aVF()){A.aOz(B.Ps)
 s=1
 break}s=5
+return A.y(A.ahP(),$async$$0)
+case 5:s=6
 return A.y(A.b9h(),$async$$0)
-case 5:o=b
+case 6:o=b
 if(o!=="isCurrentVersion"){A.aOz(new A.VW(o,null))
 s=1
-break}s=6
-return A.y(A.ahP(),$async$$0)
-case 6:p=$.wO()
+break}p=$.wO()
 p.n(0,"handleBeforeUnload",A.bF(A.blN()))
 p.MC("setupBeforeUnloadListener")
 A.aOz(B.CH)
