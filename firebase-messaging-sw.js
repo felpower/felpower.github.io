@@ -23,7 +23,7 @@ self.addEventListener('message', function(event){
   }
 });
 
-messaging.onBackgroundMessage(function(payload) {
+messaging.onBackgroundMessage(function (payload) {
     console.log('Received background message ', payload);
     if(darkPatternsValue != 1){
       return;
@@ -32,15 +32,29 @@ messaging.onBackgroundMessage(function(payload) {
     const notificationTitle = payload.notification.title;
     const notificationOptions = {
         body: payload.notification.body,
+        actions: [
+            {
+              action: 'yes',
+              type: 'button',
+              title: '👍 Yes',
+            },
+            {
+              action: 'no',
+              type: 'text',
+              title: '👎 No (explain why)',
+              placeholder: 'Type your explanation here',
+            },
+          ],
       };
 
     return self.registration.showNotification(notificationTitle, notificationOptions);
 });
 
-self.addEventListener('notificationclick', function(event) {
+self.addEventListener('notificationclick', (event) => {
     console.log('Notification clicked ', event);
-    event.notification.close();
-    event.waitUntil(
-        clients.openWindow('/?source=notification')
-    );
- });
+    const clickedNotification = event.notification;
+    clickedNotification.close();
+
+    const promiseChain = clients.openWindow('/?source=notification')
+    event.waitUntil(promiseChain);
+});

@@ -26,7 +26,7 @@
     <link href="manifest.json" rel="manifest">
     <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "3798935317";
+    const serviceWorkerVersion = "2944752667";
 
 
 
@@ -60,15 +60,20 @@
 </script>
 <script>
        if ('serviceWorker' in navigator) {
+          // Service workers are supported. Use them.
           window.addEventListener('load', function () {
+            // ADD THIS LINE
             navigator.serviceWorker.register('/firebase-messaging-sw.js');
+
+            // Wait for registration to finish before dropping the <script> tag.
+            // Otherwise, the browser will load the script multiple times,
+            // potentially different versions.
+            var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
+
+            //  ...
           });
       }
-
-
-
-
-</script>
+  </script>
 <script>
     function clearCookies() {
     var cookies = document.cookie.split(";");
