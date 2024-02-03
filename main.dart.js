@@ -57224,38 +57224,39 @@ m.toString
 A.bY(m,!1).PP("/endSurvey",t.X)}}A.ajz(new A.aFu(),A.Ty(),t.N)
 return A.o(null,r)}})
 return A.p($async$E1,r)},
-E2(){var s=0,r=A.q(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g,f
-var $async$E2=A.r(function(a,b){if(a===1){p=b
-s=q}while(true)switch(s){case 0:q=3
-s=6
+E2(){var s=0,r=A.q(t.H),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e
+var $async$E2=A.r(function(a,b){if(a===1){o=b
+s=p}while(true)switch(s){case 0:p=4
+s=7
 return A.u(A.cY(),$async$E2)
-case 6:n=b
-j=A.b7(J.ak(n.a,"levelStarted"))
-m=j==null?"-1":j
-A.dp("levelStarted: "+A.j(m))
-if(!J.d(m,"-1")){l=B.b4.a1H(0,m,null)
-m="0"
-n.cS("String","levelStarted","0")
-A.dp("jsonData: "+A.j(l))
-if(l!=null){A.pL(B.lh,16,B.iw,"Game has successfully restarted",B.k,1,B.a2I)
-A.nz("RestartGame","Level "+A.j(m))
-i=o.c
-i.toString
-h=A.hZ(new A.aFv(l),null,t.z)
-A.bY(i,!1).fD(h)}else{i=A.bo("Level "+A.j(m)+" not found, jsonData is null")
-throw A.c(i)}}q=1
-s=5
+case 7:m=b
+i=A.b7(J.ak(m.a,"levelStarted"))
+l=i==null?"-1":i
+A.dp("levelStarted: "+A.j(l))
+if(J.d(l,"0")){s=1
+break}if(!J.d(l,"-1")){k=B.b4.a1H(0,l,null)
+l="0"
+m.cS("String","levelStarted","0")
+A.dp("jsonData: "+A.j(k))
+if(k!=null){A.pL(B.lh,16,B.iw,"Game has successfully restarted",B.k,1,B.a2I)
+A.nz("RestartGame","Level "+A.j(l))
+h=n.c
+h.toString
+g=A.hZ(new A.aFv(k),null,t.z)
+A.bY(h,!1).fD(g)}else{h=A.bo("Level "+A.j(l)+" not found, jsonData is null")
+throw A.c(h)}}p=2
+s=6
 break
-case 3:q=2
-f=p
-k=A.a_(f)
-A.dG("RestartGame","",!1,J.bG(k))
-s=5
+case 4:p=3
+e=o
+j=A.a_(e)
+A.dG("RestartGame","",!1,J.bG(j))
+s=6
 break
-case 2:s=1
+case 3:s=2
 break
-case 5:return A.o(null,r)
-case 1:return A.n(p,r)}})
+case 6:case 1:return A.o(q,r)
+case 2:return A.n(o,r)}})
 return A.p($async$E2,r)},
 FA(){var s=0,r=A.q(t.z),q=this,p,o,n
 var $async$FA=A.r(function(a,b){if(a===1)return A.n(b,r)
