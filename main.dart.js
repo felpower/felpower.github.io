@@ -9961,7 +9961,7 @@ return s},
 amg:function amg(){this.a=$
 this.b=0
 this.c=2147483647},
-aS7(a){var s=A.V1(B.N6),r=A.V1(B.NL)
+aS7(a){var s=A.V1(B.N6),r=A.V1(B.NK)
 r=new A.an0(A.v_(a,0,null,0),A.aZU(null),s,r)
 r.b=!0
 r.apg()
@@ -37933,7 +37933,7 @@ r===$&&A.a()
 r=r.a
 r.toString
 r=A.r(r,"getGlyphPositionAtCoordinate",[a.a,a.b])
-s=B.NU[B.c.ao(r.affinity.value)]
+s=B.NT[B.c.ao(r.affinity.value)]
 return new A.bl(B.c.ao(r.pos),s)},
 Ro(a){var s,r,q,p,o=this.a
 o===$&&A.a()
@@ -56869,7 +56869,7 @@ if(r>19)return-1
 q=new Uint8Array(19)
 for(p=0;p<r;++p){o=i.k_(3)
 if(o===-1)return-1
-q[B.NI[p]]=o}n=A.V1(q)
+q[B.NH[p]]=o}n=A.V1(q)
 m=h+s
 l=new Uint8Array(m)
 k=B.bs.kb(l.buffer,0,h)
@@ -56882,10 +56882,10 @@ if(r<0||r>285)return-1
 if(r===256)break
 if(r<256){s.fd(r&255)
 continue}q=r-257
-p=B.O_[q]+l.k_(B.N1[q])
+p=B.NZ[q]+l.k_(B.N1[q])
 o=l.LM(b)
 if(o<0||o>29)return-1
-n=B.Nb[o]+l.k_(B.NM[o])
+n=B.Nb[o]+l.k_(B.NL[o])
 for(m=-n;p>n;){s.Rh(s.SC(m))
 p-=n}if(p===n)s.Rh(s.SC(m))
 else s.Rh(s.o4(m,p-n))}for(;s=l.e,s>=8;){l.e=s-8
@@ -57404,7 +57404,7 @@ s=r.c
 s.toString
 s=A.aoy(s,t.N1)
 s.vc(0,r.z)},
-E(a){var s=null,r=A.n9(s,!1,s,s,s,B.a1y),q=A.b2(s,this.agm(),B.j,s,s,B.ji,s,s,s,s,s,s,s,s),p=this.Q
+E(a){var s=null,r=A.n9(s,!1,s,s,s,B.a1z),q=A.b2(s,this.agm(),B.j,s,s,B.ji,s,s,s,s,s,s,s,s),p=this.Q
 return A.iJ(r,s,A.hI(B.bd,A.b([q,A.lo(A.d2(A.jS(!1,B.mp,B.j,s,s,s,s,s,new A.aEt(this,a),s,s),s,s),p)],t.p),B.H,B.b2),s,s)},
 agm(){var s,r,q,p=this,o=null,n=p.c
 n.toString
@@ -57824,7 +57824,7 @@ try{A.lA(!0,new A.aME(this.a),this.b,t.z)}catch(r){s=A.a_(r)
 A.dH("closeFABError","",!1,J.bD(s))}},
 $S:0}
 A.aME.prototype={
-$1(a){return A.ary(A.j1(A.b([A.fR(B.a1N,new A.aMB(a),null),A.fR(B.Cv,new A.aMC(this.a,a),null)],t.p),B.a1c,24,B.cz,B.a1C))},
+$1(a){return A.ary(A.j1(A.b([A.fR(B.a1N,new A.aMB(a),null),A.fR(B.Cv,new A.aMC(this.a,a),null)],t.p),B.a1c,24,B.cz,B.a1D))},
 $S:174}
 A.aMB.prototype={
 $0(){A.bW(this.a,!1).eG("Cancel")
@@ -58067,7 +58067,7 @@ q=A.ax("Level "+r+" freischalten?",p,p,p,p,p,p,p)
 r=A.ax("Willst du level "+r+" f\xfcr 500$ freischalten?",p,p,p,p,p,p,p)
 q=A.j1(A.b([A.fR(B.a29,new A.akG(a),p),A.fR(B.ds,new A.akH(s,o,this.c,a),p)],n),r,24,B.cz,q)
 o=q}else{o=A.ax("Du kannst M\xfcnzen durch Spielen der Levels erhalten, du ben\xf6tigst 500$ um dieses Level freizuschalten",p,p,p,p,p,p,p)
-o=A.j1(A.b([A.fR(B.ds,new A.akI(a),p)],n),o,24,B.cz,B.a1q)}return o},
+o=A.j1(A.b([A.fR(B.ds,new A.akI(a),p)],n),o,24,B.cz,B.a1r)}return o},
 $S:32}
 A.akG.prototype={
 $0(){A.bW(this.a,!1).eG("Cancel")
@@ -58509,7 +58509,7 @@ o=m.ayp(a,j)
 n=s.b
 return A.iJ(p,l,new A.l6(A.hI(B.bd,A.b([A.b2(l,l,B.j,l,l,B.Fi,l,l,l,l,l,l,l,l),A.d2(A.e3(new A.ba(B.Jt,A.bP(A.b([A.j3(l,l,new A.aFQ(125),k,r),A.j3(l,l,new A.aFR(),k,r),A.j3(l,l,new A.aFS(m,j),k,r),A.dv(new A.K4(new A.aFT(m,j),new A.fY(n,n.$ti.i("fY<1>")),l,t.ye),1)],q),B.q,B.bq,B.p),l),1000,500),1,l)],q),B.H,B.b2),l,!0,l),o,l)},
 ayp(a,b){var s,r,q=this,p=null,o=A.b([B.J7,A.lo(A.m9(!1,p,p,p,!0,p,p,!1,B.pH,p,new A.aFu(a),!1,p,p,new A.co(A.hq(12),B.n),p,B.c_,B.a2t,p,p),!0),A.lo(A.m9(!1,p,p,p,!0,p,p,!1,B.L6,p,new A.aFv(a),!1,p,p,new A.co(A.hq(12),B.n),p,B.c_,B.a2u,p,p),!0)],t.p)
-if(b instanceof A.iw||b instanceof A.lS)o.push(A.fF(p,A.m9(!1,p,p,p,!q.d,p,p,!1,B.L1,p,new A.aFw(q),!1,p,p,new A.co(A.hq(12),B.n),p,B.c_,B.a1z,p,p),B.S,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.aFx(q),p,p,p,p,p,p))
+if(b instanceof A.iw||b instanceof A.lS)o.push(A.fF(p,A.m9(!1,p,p,p,!q.d,p,p,!1,B.L1,p,new A.aFw(q),!1,p,p,new A.co(A.hq(12),B.n),p,B.c_,B.a1A,p,p),B.S,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.aFx(q),p,p,p,p,p,p))
 s=q.x
 r=s?B.pI:B.pJ
 o.push(A.lo(new A.a_j(s,new A.aFy(q),B.c_,B.a1O,r,p),!0))
@@ -58523,7 +58523,7 @@ if(!B.d.p(s.gm9(s),"localhost")){s=window.location.href
 s.toString
 s=A.dS(s,0,p)
 s=B.d.p(s.gm9(s),"flutter")}else s=!0}else s=!0
-o.push(A.lo(A.m9(!1,p,p,p,!0,p,p,!1,B.L7,p,new A.aFz(a),!1,p,p,new A.co(A.hq(12),B.n),p,B.c_,B.a1w,p,p),s))
+o.push(A.lo(A.m9(!1,p,p,p,!0,p,p,!1,B.L7,p,new A.aFz(a),!1,p,p,new A.co(A.hq(12),B.n),p,B.c_,B.a1x,p,p),s))
 o.push(A.lo(A.m9(!1,p,p,p,!0,p,p,!1,B.pK,p,new A.aFA(),!1,p,p,new A.co(A.hq(12),B.n),p,B.c_,B.a1F,p,p),!0))
 o.push(A.lo(A.m9(!1,p,p,p,!0,p,p,!1,B.pH,p,new A.aFB(a),!1,p,p,new A.co(A.hq(12),B.n),p,B.c_,B.a2v,p,p),!0))
 o.push(A.lo(A.m9(!1,p,p,p,!0,p,p,!1,B.pK,p,new A.aFC(a),!1,p,p,new A.co(A.hq(12),B.n),p,B.c_,B.a24,p,p),!1))
@@ -58824,7 +58824,7 @@ s.Q=r==null?0:r},
 $S:0}
 A.aFl.prototype={
 $1(a){var s=null,r=A.ax("T\xe4gliche Belohnung k\xf6nnen wieder in "+this.a+" Stunden abgeholt werden",s,s,s,s,s,s,s)
-return A.j1(A.b([A.fR(B.ds,new A.aFk(a),s)],t.p),r,s,s,B.a1j)},
+return A.j1(A.b([A.fR(B.ds,new A.aFk(a),s)],t.p),r,s,s,B.a1k)},
 $S:32}
 A.aFk.prototype={
 $0(){return A.bW(this.a,!1).e4()},
@@ -58874,9 +58874,9 @@ A.aa4.prototype={}
 A.u7.prototype={
 Y(){return new A.a2D(new A.eL(B.bU,$.au()),A.WY(0,1),B.i)}}
 A.a2D.prototype={
-E(a){var s=this,r=null,q=A.eX(a,t.dY).c,p=A.n9(r,!0,r,r,r,B.GB),o=t.p,n=A.b([B.a1p],o),m=q instanceof A.iw
+E(a){var s=this,r=null,q=A.eX(a,t.dY).c,p=A.n9(r,!0,r,r,r,B.GB),o=t.p,n=A.b([B.a1q],o),m=q instanceof A.iw
 if(m)n.push(B.Cz)
-else if(q instanceof A.np)n.push(B.a1u)
+else if(q instanceof A.np)n.push(B.a1v)
 else if(q instanceof A.kH)n.push(B.Cz)
 else if(q instanceof A.lS)n.push(B.a2o)
 if(m)n.push(B.LA)
@@ -58887,12 +58887,12 @@ n.push(B.it)
 if(m)n.push(B.a1K)
 else if(q instanceof A.np)n.push(B.Cx)
 else if(q instanceof A.kH)n.push(B.Cx)
-else if(q instanceof A.lS)n.push(B.a1l)
+else if(q instanceof A.lS)n.push(B.a1m)
 if(m)n.push(B.Lz)
 else if(q instanceof A.np)n.push(B.Lr)
 else if(q instanceof A.kH)n.push(B.Lw)
 else if(q instanceof A.lS)n.push(B.LE)
-return A.iJ(p,r,A.bP(A.b([A.dv(A.aSA(A.b([B.Va,B.Ve,B.Vd,B.V9,B.Vb,A.Zw(A.bP(n,B.q,B.x,B.p),B.bQ),A.Zw(A.bP(A.b([B.a1h,B.a1U,B.SH,B.a1m,A.jS(!1,B.a2p,B.j,r,r,r,r,r,new A.aDm(a),r,r)],o),B.q,B.x,B.p),B.bQ)],o),B.H,s.f,B.S,new A.aDn(s),r),1),A.dQ(A.b([A.jS(!1,B.KX,B.j,r,r,r,r,r,new A.aDo(s),r,r),A.ax(""+(s.r+1)+" / 7",r,r,r,r,r,r,r),A.jS(!1,B.L2,B.j,r,r,r,r,r,new A.aDp(s),r,r)],o),B.q,B.cQ,B.p,r)],o),B.q,B.x,B.p),r,r)}}
+return A.iJ(p,r,A.bP(A.b([A.dv(A.aSA(A.b([B.V9,B.Ve,B.Vd,B.Va,B.Vb,A.Zw(A.bP(n,B.q,B.x,B.p),B.bQ),A.Zw(A.bP(A.b([B.a1h,B.a1U,B.SH,B.a1n,A.jS(!1,B.a2p,B.j,r,r,r,r,r,new A.aDm(a),r,r)],o),B.q,B.x,B.p),B.bQ)],o),B.H,s.f,B.S,new A.aDn(s),r),1),A.dQ(A.b([A.jS(!1,B.KX,B.j,r,r,r,r,r,new A.aDo(s),r,r),A.ax(""+(s.r+1)+" / 7",r,r,r,r,r,r,r),A.jS(!1,B.L2,B.j,r,r,r,r,r,new A.aDp(s),r,r)],o),B.q,B.cQ,B.p,r)],o),B.q,B.x,B.p),r,r)}}
 A.aDn.prototype={
 $1(a){var s=this.a
 s.M(new A.aDl(s,a))},
@@ -58933,7 +58933,7 @@ E(a){var s,r,q,p,o=this,n=null
 A.aYp()
 s=A.jz(B.a3,n)
 r=A.jz(B.a3,n)
-q=A.b([B.a1x,B.a1b],t.p)
+q=A.b([B.a1y,B.a1b],t.p)
 p=$.xp()
 if(p.a){p=p.b
 p=p!==B.pT&&p!==B.pU}else p=!1
@@ -58941,7 +58941,7 @@ if(p)q.push(A.jS(!1,B.a1e,B.j,n,n,n,n,n,new A.aIc(o),n,n))
 q.push(B.a1G)
 p=o.d
 p===$&&A.a()
-q.push(p?B.a1X:B.a1i)
+q.push(p?B.a1X:B.a1j)
 q.push(B.dl)
 q.push(!o.d?B.a1Y:A.b2(n,n,B.j,n,n,n,n,n,n,n,n,n,n,n))
 q.push(!o.d?B.a2j:A.b2(n,n,B.j,n,n,n,n,n,n,n,n,n,n,n))
@@ -58963,7 +58963,7 @@ $0(){J.bD(this.b)},
 $S:0}
 A.WP.prototype={
 E(a){var s=null,r=A.jz(B.a3,s)
-return A.Hb(A.jz(B.a3,s),!1,A.iJ(s,s,A.d2(A.aoc(A.b([A.ax("Sie befinden sich noch auf einer alten Version, bitte klicken Sie auf den Button um alle aktuellen Daten zu l\xf6schen und neu zu beginnen.Sollte dies nicht der Fall sein und Sie sind sich sicher auf der aktuellen Version zu sein, bitte klicken Sie nicht den Button und l\xf6schen Sie die Cookies nicht. Wir bitten Sie uns zu kontaktieren und diese Nummer mitzuteilen und gegebenenfalls von dieser Seite einen Screenshot zu machen:\n\n\n "+this.c,s,s,s,B.dr,B.F,s,s),A.lo(A.m9(!1,s,s,s,!0,s,s,!1,B.KZ,s,new A.aqq(),!1,s,s,new A.co(A.hq(12),B.n),s,B.c_,B.a1A,s,s),!0)],t.p),B.cn),s,s),s,s),B.f4,r,B.iD,"Alte Seite")}}
+return A.Hb(A.jz(B.a3,s),!1,A.iJ(s,s,A.d2(A.aoc(A.b([A.ax("Sie befinden sich noch auf einer alten Version, bitte klicken Sie auf den Button um alle aktuellen Daten zu l\xf6schen und neu zu beginnen.Sollte dies nicht der Fall sein und Sie sind sich sicher auf der aktuellen Version zu sein, bitte klicken Sie nicht den Button und l\xf6schen Sie die Cookies nicht. Wir bitten Sie uns zu kontaktieren und diese Nummer mitzuteilen und gegebenenfalls von dieser Seite einen Screenshot zu machen:\n\n\n "+this.c,s,s,s,B.dr,B.F,s,s),A.lo(A.m9(!1,s,s,s,!0,s,s,!1,B.KZ,s,new A.aqq(),!1,s,s,new A.co(A.hq(12),B.n),s,B.c_,B.a1B,s,s),!0)],t.p),B.cn),s,s),s,s),B.f4,r,B.iD,"Alte Seite")}}
 A.aqq.prototype={
 $0(){A.ajx()
 $.aVG().Ni("clearCookies")
@@ -59182,7 +59182,7 @@ $S:73}
 A.BB.prototype={
 E(a){var s=null
 this.na()
-return new A.l6(A.iJ(A.n9(s,!1,s,s,s,B.a21),s,B.a1k,s,s),s,!1,s)},
+return new A.l6(A.iJ(A.n9(s,!1,s,s,s,B.a21),s,B.a1l,s,s),s,!1,s)},
 na(){var s=0,r=A.p(t.H)
 var $async$na=A.q(function(a,b){if(a===1)return A.m(b,r)
 while(true)switch(s){case 0:s=2
@@ -61480,7 +61480,7 @@ s=k.b.x
 s===$&&A.a()
 r=B.c.dg(8*s)
 for(s=k.e,q=8*s,p=k.f,s=s<1,o=k.c,n=0;n<q;++n){m=B.e.aS(n-r,8)
-l=s?147:B.O1[m]
+l=s?147:B.O0[m]
 j.sa_(0,A.I(l,o.gk(o)>>>16&255,o.gk(o)>>>8&255,o.gk(o)&255))
 a.cO(p,j)
 a.nL(0,0.7853981633974483)}a.bx(0)},
@@ -66013,7 +66013,7 @@ A.BZ.prototype={
 G(){return"_CornerId."+this.b}}
 A.oZ.prototype={}
 A.zH.prototype={
-mV(){var s,r,q=this,p=A.bkC(B.NV,new A.aoV(q,q.b.gb5().a3(0,q.a.gb5()))),o=q.a
+mV(){var s,r,q=this,p=A.bkC(B.NU,new A.aoV(q,q.b.gb5().a3(0,q.a.gb5()))),o=q.a
 o.toString
 s=p.a
 o=q.tk(o,s)
@@ -70838,7 +70838,7 @@ A.aJ3.prototype={
 $2(a,b){return this.c.cp(a,b)},
 $S:9}
 A.a2u.prototype={
-gSv(){return B.O4},
+gSv(){return B.O3},
 a1I(a){var s=this
 switch(a.a){case 0:return s.d.z
 case 1:return s.d.Q
@@ -89877,7 +89877,7 @@ A.or.prototype={}
 A.XX.prototype={
 nx(a,b,c){var s,r,q,p,o,n=$.aA.aq$.f.c
 if(n==null||n.e==null)return!1
-for(s=t.vz,r=0;r<2;++r){q=B.NW[r]
+for(s=t.vz,r=0;r<2;++r){q=B.NV[r]
 p=n.e
 p.toString
 o=A.aQT(p,q,s)
@@ -107960,7 +107960,7 @@ break
 case 1:return A.n(q,r)}})
 return A.o($async$ni,r)}}
 A.ap9.prototype={
-$1(a){var s,r,q,p,o,n=null,m="duration",l="icyMetadata",k=J.a6(a),j=B.NK[A.c9(k.h(a,"processingState"))],i=A.u1(A.c9(k.h(a,"updateTime")),!1),h=A.bS(0,A.c9(k.h(a,"updatePosition")),0),g=A.bS(0,A.c9(k.h(a,"bufferedPosition")),0),f=k.h(a,m)==null||A.c9(k.h(a,m))<0?n:A.bS(0,A.c9(k.h(a,m)),0)
+$1(a){var s,r,q,p,o,n=null,m="duration",l="icyMetadata",k=J.a6(a),j=B.NJ[A.c9(k.h(a,"processingState"))],i=A.u1(A.c9(k.h(a,"updateTime")),!1),h=A.bS(0,A.c9(k.h(a,"updatePosition")),0),g=A.bS(0,A.c9(k.h(a,"bufferedPosition")),0),f=k.h(a,m)==null||A.c9(k.h(a,m))<0?n:A.bS(0,A.c9(k.h(a,m)),0)
 if(k.h(a,l)==null)s=n
 else{s=t.f
 r=s.a(k.h(a,l))
@@ -107982,7 +107982,7 @@ q=A.aNG(s.h(a,"volume"))
 p=A.aNG(s.h(a,"speed"))
 o=A.aNG(s.h(a,"pitch"))
 n=s.h(a,m)!=null?B.qs[A.c9(s.h(a,m))]:null
-return new A.mj(r,q,p,o,n,s.h(a,l)!=null?B.O3[A.c9(s.h(a,l))]:null)},
+return new A.mj(r,q,p,o,n,s.h(a,l)!=null?B.O2[A.c9(s.h(a,l))]:null)},
 $S:655}
 A.ans.prototype={
 ma(a){return this.aDl(a)},
@@ -111431,7 +111431,7 @@ k=A.dW(b,8,B.C)
 q[2]=k
 j=A.dW(b,12,B.C)
 q[3]=j
-for(n=1;n<=10;++n){m=(m^c.xD((j>>>8|(j&$.fx[24])<<24)>>>0)^B.O5[n-1])>>>0
+for(n=1;n<=10;++n){m=(m^c.xD((j>>>8|(j&$.fx[24])<<24)>>>0)^B.O4[n-1])>>>0
 b=o[n]
 b[0]=m
 l=(l^m)>>>0
@@ -114234,16 +114234,6 @@ o.J0(o.x0(o.Kv(n.b.a2(0,r.gk(r)),!0)))
 o.y=!1
 o.Q=o.z=null},
 U8(a,b){var s,r,q,p,o=null,n=A.b([],t.sK)
-for(s=a.y,r=0;r<12;++r){q=B.NZ[r]
-p=this.e
-p===$&&A.a()
-this.f===$&&A.a()
-p=p.r1(q,!1)
-p=A.cM(o,s.ba(b),p)
-p=new A.oK(p,B.az,B.o,B.R.l(0,B.R)?new A.fb(1):B.R,o,o,o,o,B.aj,o)
-p.nz()
-n.push(new A.t1(p))}return n},
-U7(a,b){var s,r,q,p,o=null,n=A.b([],t.sK)
 for(s=a.y,r=0;r<12;++r){q=B.NY[r]
 p=this.e
 p===$&&A.a()
@@ -114253,8 +114243,18 @@ p=A.cM(o,s.ba(b),p)
 p=new A.oK(p,B.az,B.o,B.R.l(0,B.R)?new A.fb(1):B.R,o,o,o,o,B.aj,o)
 p.nz()
 n.push(new A.t1(p))}return n},
-Ud(a,b){var s,r,q,p,o,n=null,m=A.b([],t.sK)
+U7(a,b){var s,r,q,p,o=null,n=A.b([],t.sK)
 for(s=a.y,r=0;r<12;++r){q=B.NX[r]
+p=this.e
+p===$&&A.a()
+this.f===$&&A.a()
+p=p.r1(q,!1)
+p=A.cM(o,s.ba(b),p)
+p=new A.oK(p,B.az,B.o,B.R.l(0,B.R)?new A.fb(1):B.R,o,o,o,o,B.aj,o)
+p.nz()
+n.push(new A.t1(p))}return n},
+Ud(a,b){var s,r,q,p,o,n=null,m=A.b([],t.sK)
+for(s=a.y,r=0;r<12;++r){q=B.NW[r]
 this.e===$&&A.a()
 p=q.b
 o=p<10?"0"+p:B.e.j(p)
@@ -118923,8 +118923,8 @@ B.j=new A.y7(0,"none")
 B.D=new A.aN(2e5)
 B.Rb=new A.zG(B.a2b,B.dU,0,null,null,null,null,null,!0,B.j,B.D,null,null)
 B.GA=new A.j4(B.P,null,null,B.Rb,null)
-B.a1r=new A.aw("Instruktionen zum Spiel",null,null,null,null,null,null,null,null,null)
-B.GB=new A.j4(B.P,null,null,B.a1r,null)
+B.a1s=new A.aw("Instruktionen zum Spiel",null,null,null,null,null,null,null,null,null)
+B.GB=new A.j4(B.P,null,null,B.a1s,null)
 B.bQ=new A.ar(8,8,8,8)
 B.x=new A.qs(0,"start")
 B.p=new A.VY(1,"max")
@@ -118932,17 +118932,17 @@ B.q=new A.tS(2,"center")
 B.aK=new A.a0j(1,"down")
 B.cp=new A.jU(6)
 B.bb=new A.x(!0,null,null,null,null,null,null,B.cp,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a1n=new A.aw("Universit\xe4t Wien",null,B.bb,B.F,null,null,null,null,null,null)
+B.a1o=new A.aw("Universit\xe4t Wien",null,B.bb,B.F,null,null,null,null,null,null)
 B.Cy=new A.aw("Floragasse 7, 5. Stock, 1040 Wien\noffice@sba-research.org\n+43 (1) 505 36 88",null,null,B.F,null,null,null,null,null,null)
 B.dl=new A.fq(null,20,null,null)
 B.a22=new A.aw(u.Z,null,B.bb,B.F,null,null,null,null,null,null)
 B.CA=new A.aw("AK-Platz 1, 3100 St. P\xf6lten\njellyfun@aknoe.at\n+43 5 7171-0",null,null,B.F,null,null,null,null,null,null)
-B.OB=A.b(s([B.a1n,B.Cy,B.dl,B.a22,B.CA]),t.p)
-B.I_=new A.kE(B.ag,B.x,B.p,B.q,null,B.aK,null,B.OB,null)
+B.OB=A.b(s([B.a1o,B.Cy,B.dl,B.a22,B.CA]),t.p)
+B.I0=new A.kE(B.ag,B.x,B.p,B.q,null,B.aK,null,B.OB,null)
 B.S=new A.TF(1,"start")
 B.H=new A.y7(1,"hardEdge")
 B.ig=new A.Z7(0,"manual")
-B.Vc=new A.mt(B.bQ,B.I_,null)
+B.Vc=new A.mt(B.bQ,B.I0,null)
 B.GC=new A.j4(B.P,null,null,B.Vc,null)
 B.GD=new A.y1(null,null,null,null,null,null,null,null,null)
 B.GE=new A.Eu(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
@@ -119600,8 +119600,8 @@ B.DI=new A.pv(4,"sonification")
 B.Mn=A.b(s([B.nc,B.DG,B.nd,B.DH,B.DI]),A.a5("w<pv>"))
 B.MM=A.b(s([23,114,69,56,80,144]),t.t)
 B.ML=A.b(s([49,65,89,38,83,89]),t.t)
-B.O2=A.b(s([137,80,78,71,13,10,26,10]),t.Z)
-B.Lb=new A.nT(B.O2,"image/png")
+B.O1=A.b(s([137,80,78,71,13,10,26,10]),t.Z)
+B.Lb=new A.nT(B.O1,"image/png")
 B.MN=A.b(s([71,73,70,56,55,97]),t.Z)
 B.Lf=new A.nT(B.MN,"image/gif")
 B.MO=A.b(s([71,73,70,56,57,97]),t.Z)
@@ -119718,17 +119718,17 @@ B.AL=new A.iI(3,"ready")
 B.TA=new A.iI(4,"completed")
 B.NF=A.b(s([B.i3,B.i4,B.Tz,B.AL,B.TA]),A.a5("w<iI>"))
 B.NG=A.b(s(["Q1","Q2","Q3","Q4"]),t.s)
-B.NI=A.b(s([16,17,18,0,8,7,9,6,10,5,11,4,12,3,13,2,14,1,15]),t.t)
+B.NH=A.b(s([16,17,18,0,8,7,9,6,10,5,11,4,12,3,13,2,14,1,15]),t.t)
 B.fj=new A.qN(0,"idle")
 B.AJ=new A.qN(1,"loading")
 B.i2=new A.qN(2,"buffering")
 B.lK=new A.qN(3,"ready")
 B.AK=new A.qN(4,"completed")
-B.NK=A.b(s([B.fj,B.AJ,B.i2,B.lK,B.AK]),A.a5("w<qN>"))
-B.NM=A.b(s([0,0,0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13]),t.t)
-B.NL=A.b(s([5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5]),t.t)
+B.NJ=A.b(s([B.fj,B.AJ,B.i2,B.lK,B.AK]),A.a5("w<qN>"))
+B.NL=A.b(s([0,0,0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13]),t.t)
+B.NK=A.b(s([5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5]),t.t)
 B.ax=new A.Kq(0,"upstream")
-B.NU=A.b(s([B.ax,B.l]),A.a5("w<Kq>"))
+B.NT=A.b(s([B.ax,B.l]),A.a5("w<Kq>"))
 B.Z=new A.ro(0,"rtl")
 B.o=new A.ro(1,"ltr")
 B.kO=A.b(s([B.Z,B.o]),A.a5("w<ro>"))
@@ -119740,11 +119740,11 @@ B.D2=new A.BZ(1,"topRight")
 B.D3=new A.BZ(2,"bottomLeft")
 B.a5o=new A.oZ(B.D2,B.D3)
 B.a5p=new A.oZ(B.D3,B.D2)
-B.NV=A.b(s([B.a5n,B.a5q,B.a5o,B.a5p]),A.a5("w<oZ>"))
+B.NU=A.b(s([B.a5n,B.a5q,B.a5o,B.a5p]),A.a5("w<oZ>"))
 B.Ft=new A.xx()
 B.fm=new A.Z5(1,"page")
 B.ie=new A.fn(B.a8,B.fm)
-B.NW=A.b(s([B.Ft,B.ie]),A.a5("w<bp>"))
+B.NV=A.b(s([B.Ft,B.ie]),A.a5("w<bp>"))
 B.qh=A.b(s(["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]),t.s)
 B.CD=new A.c1(0,0)
 B.a2I=new A.c1(0,5)
@@ -119758,7 +119758,7 @@ B.a2G=new A.c1(0,40)
 B.a2H=new A.c1(0,45)
 B.a2J=new A.c1(0,50)
 B.a2K=new A.c1(0,55)
-B.NX=A.b(s([B.CD,B.a2I,B.a2A,B.a2B,B.a2C,B.a2D,B.a2E,B.a2F,B.a2G,B.a2H,B.a2J,B.a2K]),t.JN)
+B.NW=A.b(s([B.CD,B.a2I,B.a2A,B.a2B,B.a2C,B.a2D,B.a2E,B.a2F,B.a2G,B.a2H,B.a2J,B.a2K]),t.JN)
 B.CG=new A.c1(2,0)
 B.CH=new A.c1(4,0)
 B.CI=new A.c1(6,0)
@@ -119770,22 +119770,22 @@ B.a2N=new A.c1(16,0)
 B.a2O=new A.c1(18,0)
 B.a2Q=new A.c1(20,0)
 B.a2R=new A.c1(22,0)
-B.NZ=A.b(s([B.CD,B.CG,B.CH,B.CI,B.CJ,B.CE,B.CF,B.a2M,B.a2N,B.a2O,B.a2Q,B.a2R]),t.JN)
+B.NY=A.b(s([B.CD,B.CG,B.CH,B.CI,B.CJ,B.CE,B.CF,B.a2M,B.a2N,B.a2O,B.a2Q,B.a2R]),t.JN)
 B.a2P=new A.c1(1,0)
 B.a2S=new A.c1(3,0)
 B.a2T=new A.c1(5,0)
 B.a2U=new A.c1(7,0)
 B.a2V=new A.c1(9,0)
 B.a2L=new A.c1(11,0)
-B.NY=A.b(s([B.CF,B.a2P,B.CG,B.a2S,B.CH,B.a2T,B.CI,B.a2U,B.CJ,B.a2V,B.CE,B.a2L]),t.JN)
-B.O_=A.b(s([3,4,5,6,7,8,9,10,11,13,15,17,19,23,27,31,35,43,51,59,67,83,99,115,131,163,195,227,258]),t.t)
+B.NX=A.b(s([B.CF,B.a2P,B.CG,B.a2S,B.CH,B.a2T,B.CI,B.a2U,B.CJ,B.a2V,B.CE,B.a2L]),t.JN)
+B.NZ=A.b(s([3,4,5,6,7,8,9,10,11,13,15,17,19,23,27,31,35,43,51,59,67,83,99,115,131,163,195,227,258]),t.t)
 B.qi=A.b(s([0,0,65490,12287,65535,34815,65534,18431]),t.t)
 B.qj=A.b(s([0,0,32776,33792,1,10240,0,0]),t.t)
-B.O1=A.b(s([47,47,47,47,72,97,122,147]),t.t)
+B.O0=A.b(s([47,47,47,47,72,97,122,147]),t.t)
 B.db=A.b(s([82,9,106,213,48,54,165,56,191,64,163,158,129,243,215,251,124,227,57,130,155,47,255,135,52,142,67,68,196,222,233,203,84,123,148,50,166,194,35,61,238,76,149,11,66,250,195,78,8,46,161,102,40,217,36,178,118,91,162,73,109,139,209,37,114,248,246,100,134,104,152,22,212,164,92,204,93,101,182,146,108,112,72,80,253,237,185,218,94,21,70,87,167,141,157,132,144,216,171,0,140,188,211,10,247,228,88,5,184,179,69,6,208,44,30,143,202,63,15,2,193,175,189,3,1,19,138,107,58,145,17,65,79,103,220,234,151,242,207,206,240,180,230,115,150,172,116,34,231,173,53,133,226,249,55,232,28,117,223,110,71,241,26,113,29,41,197,137,111,183,98,14,170,24,190,27,252,86,62,75,198,210,121,32,154,219,192,254,120,205,90,244,31,221,168,51,136,7,199,49,177,18,16,89,39,128,236,95,96,81,127,169,25,181,74,13,45,229,122,159,147,201,156,239,160,224,59,77,174,42,245,176,200,235,187,60,131,83,153,97,23,43,4,126,186,119,214,38,225,105,20,99,85,33,12,125]),t.t)
 B.m3=new A.JK(0,"none")
 B.m4=new A.JK(1,"all")
-B.O3=A.b(s([B.m3,B.m4]),A.a5("w<JK>"))
+B.O2=A.b(s([B.m3,B.m4]),A.a5("w<JK>"))
 B.eU=A.b(s([0,79764919,159529838,222504665,319059676,398814059,445009330,507990021,638119352,583659535,797628118,726387553,890018660,835552979,1015980042,944750013,1276238704,1221641927,1167319070,1095957929,1595256236,1540665371,1452775106,1381403509,1780037320,1859660671,1671105958,1733955601,2031960084,2111593891,1889500026,1952343757,2552477408,2632100695,2443283854,2506133561,2334638140,2414271883,2191915858,2254759653,3190512472,3135915759,3081330742,3009969537,2905550212,2850959411,2762807018,2691435357,3560074640,3505614887,3719321342,3648080713,3342211916,3287746299,3467911202,3396681109,4063920168,4143685023,4223187782,4286162673,3779000052,3858754371,3904687514,3967668269,881225847,809987520,1023691545,969234094,662832811,591600412,771767749,717299826,311336399,374308984,453813921,533576470,25881363,88864420,134795389,214552010,2023205639,2086057648,1897238633,1976864222,1804852699,1867694188,1645340341,1724971778,1587496639,1516133128,1461550545,1406951526,1302016099,1230646740,1142491917,1087903418,2896545431,2825181984,2770861561,2716262478,3215044683,3143675388,3055782693,3001194130,2326604591,2389456536,2200899649,2280525302,2578013683,2640855108,2418763421,2498394922,3769900519,3832873040,3912640137,3992402750,4088425275,4151408268,4197601365,4277358050,3334271071,3263032808,3476998961,3422541446,3585640067,3514407732,3694837229,3640369242,1762451694,1842216281,1619975040,1682949687,2047383090,2127137669,1938468188,2001449195,1325665622,1271206113,1183200824,1111960463,1543535498,1489069629,1434599652,1363369299,622672798,568075817,748617968,677256519,907627842,853037301,1067152940,995781531,51762726,131386257,177728840,240578815,269590778,349224269,429104020,491947555,4046411278,4126034873,4172115296,4234965207,3794477266,3874110821,3953728444,4016571915,3609705398,3555108353,3735388376,3664026991,3290680682,3236090077,3449943556,3378572211,3174993278,3120533705,3032266256,2961025959,2923101090,2868635157,2813903052,2742672763,2604032198,2683796849,2461293480,2524268063,2284983834,2364738477,2175806836,2238787779,1569362073,1498123566,1409854455,1355396672,1317987909,1246755826,1192025387,1137557660,2072149281,2135122070,1912620623,1992383480,1753615357,1816598090,1627664531,1707420964,295390185,358241886,404320391,483945776,43990325,106832002,186451547,266083308,932423249,861060070,1041341759,986742920,613929101,542559546,756411363,701822548,3316196985,3244833742,3425377559,3370778784,3601682597,3530312978,3744426955,3689838204,3819031489,3881883254,3928223919,4007849240,4037393693,4100235434,4180117107,4259748804,2310601993,2373574846,2151335527,2231098320,2596047829,2659030626,2470359227,2550115596,2947551409,2876312838,2788305887,2733848168,3165939309,3094707162,3040238851,2985771188]),t.t)
 B.ap=new A.fV(0,"icon")
 B.aF=new A.fV(1,"input")
@@ -119798,8 +119798,8 @@ B.ay=new A.fV(7,"suffixIcon")
 B.aM=new A.fV(8,"helperError")
 B.aA=new A.fV(9,"counter")
 B.cE=new A.fV(10,"container")
-B.O4=A.b(s([B.ap,B.aF,B.ae,B.aL,B.aB,B.aC,B.a7,B.ay,B.aM,B.aA,B.cE]),A.a5("w<fV>"))
-B.O5=A.b(s([1,2,4,8,16,32,64,128,27,54,108,216,171,77,154,47,94,188,99,198,151,53,106,212,179,125,250,239,197,145]),t.t)
+B.O3=A.b(s([B.ap,B.aF,B.ae,B.aL,B.aB,B.aC,B.a7,B.ay,B.aM,B.aA,B.cE]),A.a5("w<fV>"))
+B.O4=A.b(s([1,2,4,8,16,32,64,128,27,54,108,216,171,77,154,47,94,188,99,198,151,53,106,212,179,125,250,239,197,145]),t.t)
 B.O7=A.b(s(["click","scroll"]),t.s)
 B.oe=new A.G(419430400)
 B.f=new A.i(0,0)
@@ -120814,22 +120814,22 @@ B.P2=A.b(s([B.wf,null,null,B.lc]),t.L)
 B.P3=A.b(s([B.wg,null,null,B.ld]),t.L)
 B.Ox=A.b(s([B.f2,B.f2,B.hJ,null]),t.L)
 B.P4=A.b(s([B.hF,null,B.hF,null]),t.L)
-B.NN=A.b(s([B.c5,null,null,B.l6]),t.L)
-B.NO=A.b(s([B.bR,null,null,B.l8]),t.L)
-B.NP=A.b(s([B.bS,null,null,B.la]),t.L)
+B.NM=A.b(s([B.c5,null,null,B.l6]),t.L)
+B.NN=A.b(s([B.bR,null,null,B.l8]),t.L)
+B.NO=A.b(s([B.bS,null,null,B.la]),t.L)
 B.O9=A.b(s([B.c6,null,null,B.lc]),t.L)
 B.Os=A.b(s([B.kX,null,null,B.l9]),t.L)
 B.Oy=A.b(s([B.f1,B.f1,B.hI,null]),t.L)
 B.Nm=A.b(s([B.bp,null,null,B.l3]),t.L)
-B.NQ=A.b(s([B.dc,null,null,B.l5]),t.L)
+B.NP=A.b(s([B.dc,null,null,B.l5]),t.L)
 B.OM=A.b(s([B.hE,null,null,B.l2]),t.L)
-B.NR=A.b(s([B.dd,null,null,B.lb]),t.L)
+B.NQ=A.b(s([B.dd,null,null,B.lb]),t.L)
 B.Ot=A.b(s([B.kY,null,null,B.l4]),t.L)
 B.Oz=A.b(s([B.f3,B.f3,B.hK,null]),t.L)
-B.NS=A.b(s([B.f_,null,null,B.l7]),t.L)
+B.NR=A.b(s([B.f_,null,null,B.l7]),t.L)
 B.Ou=A.b(s([B.f0,null,null,B.ld]),t.L)
 B.OA=A.b(s([B.cP,B.cP,B.de,null]),t.L)
-B.R2=new A.cz(["*",B.OG,"+",B.OH,"-",B.OI,".",B.OJ,"/",B.OK,"0",B.Nr,"1",B.Ns,"2",B.Nt,"3",B.Nu,"4",B.Nv,"5",B.Nw,"6",B.Nx,"7",B.Ny,"8",B.P2,"9",B.P3,"Alt",B.Ox,"AltGraph",B.P4,"ArrowDown",B.NN,"ArrowLeft",B.NO,"ArrowRight",B.NP,"ArrowUp",B.O9,"Clear",B.Os,"Control",B.Oy,"Delete",B.Nm,"End",B.NQ,"Enter",B.OM,"Home",B.NR,"Insert",B.Ot,"Meta",B.Oz,"PageDown",B.NS,"PageUp",B.Ou,"Shift",B.OA],A.a5("cz<t,N<j?>>"))
+B.R2=new A.cz(["*",B.OG,"+",B.OH,"-",B.OI,".",B.OJ,"/",B.OK,"0",B.Nr,"1",B.Ns,"2",B.Nt,"3",B.Nu,"4",B.Nv,"5",B.Nw,"6",B.Nx,"7",B.Ny,"8",B.P2,"9",B.P3,"Alt",B.Ox,"AltGraph",B.P4,"ArrowDown",B.NM,"ArrowLeft",B.NN,"ArrowRight",B.NO,"ArrowUp",B.O9,"Clear",B.Os,"Control",B.Oy,"Delete",B.Nm,"End",B.NP,"Enter",B.OM,"Home",B.NQ,"Insert",B.Ot,"Meta",B.Oz,"PageDown",B.NR,"PageUp",B.Ou,"Shift",B.OA],A.a5("cz<t,N<j?>>"))
 B.RM={cancel:0,next:1}
 B.R3=new A.c3(B.RM,["","Weiter"],t.li)
 B.wy=new A.zF(0,"maskModeAdd")
@@ -120912,8 +120912,8 @@ B.WN=new A.bk("Push-Nachrichten die zum Spielen animieren","4")
 B.WM=new A.bk("Level waren in Bl\xf6cken angeordnet","5")
 B.Xc=new A.bk("alle der genannten","6")
 B.WW=new A.bk("keines der genannten ","0")
-B.O0=A.b(s([B.Xj,B.WU,B.Xs,B.WN,B.WM,B.Xc,B.WW]),t.b)
-B.Rt=new A.zQ(B.O0)
+B.O_=A.b(s([B.Xj,B.WU,B.Xs,B.WN,B.WM,B.Xc,B.WW]),t.b)
+B.Rt=new A.zQ(B.O_)
 B.fb=new A.apZ(0,"latestPointer")
 B.wP=new A.vr(0,"clipRect")
 B.wQ=new A.vr(1,"clipRRect")
@@ -120981,8 +120981,8 @@ B.SE=new A.zW(null)
 B.a7c=new A.WW(0,"start")
 B.x1=new A.WW(1,"end")
 B.h9=new A.ar(20,0,0,0)
-B.a1t=new A.aw("\u2022\tPlane deine Z\xfcge voraus, um die effektivsten Kombinationen zu erstellen.\n\u2022\tNutze die speziellen Jellies strategisch, um schwierige Bereiche zu meistern.\n\u2022\tHalte Ausschau nach unerwarteten Kettenreaktionen.\n",null,null,null,null,null,null,null,null,null)
-B.SH=new A.ba(B.h9,B.a1t,null)
+B.a1u=new A.aw("\u2022\tPlane deine Z\xfcge voraus, um die effektivsten Kombinationen zu erstellen.\n\u2022\tNutze die speziellen Jellies strategisch, um schwierige Bereiche zu meistern.\n\u2022\tHalte Ausschau nach unerwarteten Kettenreaktionen.\n",null,null,null,null,null,null,null,null,null)
+B.SH=new A.ba(B.h9,B.a1u,null)
 B.x2=new A.A_(null)
 B.b_=new A.Xj(0,"fill")
 B.a5=new A.Xj(1,"stroke")
@@ -121258,27 +121258,27 @@ B.BM=new A.b4(B.kU,!0,!1,!1,!1)
 B.BK=new A.b4(B.kV,!0,!1,!1,!1)
 B.V5=new A.b4(B.eX,!0,!1,!1,!1)
 B.V6=new A.b4(B.eX,!0,!0,!1,!1)
-B.a18=new A.aw("4.\tLevelziele:",null,B.bb,null,null,null,null,null,null,null)
-B.a1D=new A.aw("Jedes Level hat spezifische Ziele, wie das Erreichen einer \n                              bestimmten Punktzahl, das Sammeln einer Anzahl von bestimmten Jellies oder das Entfernen von Hindernissen. Das jeweilige Ziel wird in dem Kasten rechts oben auf dem Bildschirm angezeigt. (1). Die Sterne am unteren Bildrand (2) zeigen dir deinen Fortschritt an \u2013 sobald du einen Stern erreicht hast, gilt das Level als geschafft. Je mehr Sterne du jedoch erreichst, umso h\xf6her ist der Gewinn durch das absolvierte Level.\n              ",null,null,null,null,null,null,null,null,null)
-B.Ej=new A.dq("assets/instructions/ins_3.png",null,null)
-B.Ln=new A.dJ(B.Ej,null,B.aD,null)
-B.NH=A.b(s([B.a18,B.a1D,B.Ln]),t.p)
-B.I3=new A.kE(B.ag,B.x,B.p,B.q,null,B.aK,null,B.NH,null)
-B.V9=new A.mt(B.bQ,B.I3,null)
 B.a23=new A.aw("1.\tSpielbrett und Jellies: ",null,B.bb,null,null,null,null,null,null,null)
 B.a2d=new A.aw("Das Spielbrett ist ein Gitter mit verschiedenen farbigen Jellies. Jedes Jelly hat eine einzigartige Farbe und Form. (siehe Bild)\n          ",null,null,null,null,null,null,null,null,null)
-B.Ek=new A.dq("assets/instructions/ins_1.png",null,null)
+B.Ej=new A.dq("assets/instructions/ins_1.png",null,null)
+B.Ln=new A.dJ(B.Ej,null,B.aD,null)
+B.NS=A.b(s([B.a23,B.a2d,B.Ln]),t.p)
+B.I2=new A.kE(B.ag,B.x,B.p,B.q,null,B.aK,null,B.NS,null)
+B.V9=new A.mt(B.bQ,B.I2,null)
+B.a18=new A.aw("4.\tLevelziele:",null,B.bb,null,null,null,null,null,null,null)
+B.a1i=new A.aw("Jedes Level hat spezifische Ziele, wie das Erreichen einer bestimmten Punktzahl, das Sammeln einer Anzahl von bestimmten Jellies oder das Entfernen von Hindernissen. Das jeweilige Ziel wird in dem Kasten rechts oben auf dem Bildschirm angezeigt. (1). Die Sterne am unteren Bildrand (2) zeigen dir deinen Fortschritt an \u2013 sobald du einen Stern erreicht hast, gilt das Level als geschafft. Je mehr Sterne du jedoch erreichst, umso h\xf6her ist der Gewinn durch das absolvierte Level.\n              ",null,null,null,null,null,null,null,null,null)
+B.Ek=new A.dq("assets/instructions/ins_3.png",null,null)
 B.Lo=new A.dJ(B.Ek,null,B.aD,null)
-B.NT=A.b(s([B.a23,B.a2d,B.Lo]),t.p)
-B.I1=new A.kE(B.ag,B.x,B.p,B.q,null,B.aK,null,B.NT,null)
-B.Va=new A.mt(B.bQ,B.I1,null)
-B.a1o=new A.aw("5.\tBewegungsbegrenzung und Zeitlimit: ",null,B.bb,null,null,null,null,null,null,null)
-B.a1v=new A.aw("Einige Level haben eine begrenzte Anzahl von Z\xfcgen oder ein Zeitlimit, um die Ziele zu erreichen. Dies wird in dem Kasten links oben auf dem Bildschirm angezeigt.\n          ",null,null,null,null,null,null,null,null,null)
+B.O5=A.b(s([B.a18,B.a1i,B.Lo]),t.p)
+B.I_=new A.kE(B.ag,B.x,B.p,B.q,null,B.aK,null,B.O5,null)
+B.Va=new A.mt(B.bQ,B.I_,null)
+B.a1p=new A.aw("5.\tBewegungsbegrenzung und Zeitlimit: ",null,B.bb,null,null,null,null,null,null,null)
+B.a1w=new A.aw("Einige Level haben eine begrenzte Anzahl von Z\xfcgen oder ein Zeitlimit, um die Ziele zu erreichen. Dies wird in dem Kasten links oben auf dem Bildschirm angezeigt.\n          ",null,null,null,null,null,null,null,null,null)
 B.El=new A.dq("assets/instructions/ins_4.png",null,null)
 B.Lp=new A.dJ(B.El,null,B.aD,null)
-B.OC=A.b(s([B.a1o,B.a1v,B.Lp]),t.p)
-B.I2=new A.kE(B.ag,B.x,B.p,B.q,null,B.aK,null,B.OC,null)
-B.Vb=new A.mt(B.bQ,B.I2,null)
+B.OC=A.b(s([B.a1p,B.a1w,B.Lp]),t.p)
+B.I3=new A.kE(B.ag,B.x,B.p,B.q,null,B.aK,null,B.OC,null)
+B.Vb=new A.mt(B.bQ,B.I3,null)
 B.a28=new A.aw("3.\tKombinationen und Boni:",null,B.bb,null,null,null,null,null,null,null)
 B.a1a=new A.aw("\u2022\tKombiniere 4 Jellies, um ein Sonderjelly zu erhalten, das eine ganze Reihe (horizontal gestreift, Bild links) oder Spalte (vertikal gestreift, Bild rechts) l\xf6schen kann. ",null,null,null,null,null,null,null,null,null)
 B.SI=new A.ba(B.h9,B.a1a,null)
@@ -121288,8 +121288,8 @@ B.Ez=new A.dq("assets/images/bombs/jelly_gelb_horizontal.png",null,null)
 B.Ls=new A.dJ(B.Ez,50,null,null)
 B.P1=A.b(s([B.Ll,B.Ls]),t.p)
 B.TP=new A.r_(B.aN,B.cQ,B.p,B.q,null,B.aK,null,B.P1,null)
-B.a1s=new A.aw("  \u2022\tKombiniere 5 Jellies in einem T- oder L-Form, um ein Regenbogen-Jelly zu bekommen, das alle Jellies einer bestimmten Farbe vom Brett entfernt (die Richtung der Streifen ist dabei egal).",null,null,null,null,null,null,null,null,null)
-B.SG=new A.ba(B.h9,B.a1s,null)
+B.a1t=new A.aw("  \u2022\tKombiniere 5 Jellies in einem T- oder L-Form, um ein Regenbogen-Jelly zu bekommen, das alle Jellies einer bestimmten Farbe vom Brett entfernt (die Richtung der Streifen ist dabei egal).",null,null,null,null,null,null,null,null,null)
+B.SG=new A.ba(B.h9,B.a1t,null)
 B.Eh=new A.dq("assets/images/bombs/jelly_bunt.png",null,null)
 B.LF=new A.dJ(B.Eh,50,null,null)
 B.a25=new A.aw("Du kannst Sonderjellies auch im Shop oder direkt vor dem Levelstart kaufen. Pro Level kann nur ein Sonderjelly zu Beginn platziert werden, indem du auf das Jelly klickst, dass ersetzt werden soll. Die Sonderjellies k\xf6nnen dir helfen schwierige Level zu meistern.\n",null,null,null,null,null,null,null,null,null)
@@ -121298,12 +121298,12 @@ B.N5=A.b(s([B.a28,B.SI,B.TP,B.SG,B.LF,B.SF]),t.p)
 B.HZ=new A.kE(B.ag,B.x,B.p,B.q,null,B.aK,null,B.N5,null)
 B.Vd=new A.mt(B.bQ,B.HZ,null)
 B.a1T=new A.aw("2.\tSpielz\xfcge:",null,B.bb,null,null,null,null,null,null,null)
-B.a1B=new A.aw("Tausche zwei benachbarte Jellies, um eine Reihe oder Spalte von mindestens drei gleichfarbigen Jellies zu bilden.\n              ",null,null,null,null,null,null,null,null,null)
+B.a1C=new A.aw("Tausche zwei benachbarte Jellies, um eine Reihe oder Spalte von mindestens drei gleichfarbigen Jellies zu bilden.\n              ",null,null,null,null,null,null,null,null,null)
 B.Em=new A.dq("assets/instructions/ins_2.png",null,null)
 B.Lq=new A.dJ(B.Em,null,B.aD,null)
-B.Ow=A.b(s([B.a1T,B.a1B,B.Lq]),t.p)
-B.I0=new A.kE(B.ag,B.x,B.p,B.q,null,B.aK,null,B.Ow,null)
-B.Ve=new A.mt(B.bQ,B.I0,null)
+B.Ow=A.b(s([B.a1T,B.a1C,B.Lq]),t.p)
+B.I1=new A.kE(B.ag,B.x,B.p,B.q,null,B.aK,null,B.Ow,null)
+B.Ve=new A.mt(B.bQ,B.I1,null)
 B.Xg=new A.bk("\xd6sterreich","0")
 B.WJ=new A.bk("Deutschland","1")
 B.X9=new A.bk("Anderes Land","2")
@@ -121314,8 +121314,8 @@ B.WT=new A.bk("Selbstst\xe4ndig erwerbst\xe4tig (Selbstst\xe4ndige:r, Freie Dien
 B.WR=new A.bk("Arbeitssuchend, Karenz","2")
 B.Xv=new A.bk("Sch\xfcler:in, Student:in","3")
 B.WZ=new A.bk("Pensionist:in","4")
-B.NJ=A.b(s([B.Xh,B.WT,B.WR,B.Xv,B.WZ]),t.b)
-B.Vg=new A.ic(B.NJ)
+B.NI=A.b(s([B.Xh,B.WT,B.WR,B.Xv,B.WZ]),t.b)
+B.Vg=new A.ic(B.NI)
 B.Xa=new A.bk("l\xe4ngere Spielzeit","2")
 B.Xf=new A.bk("k\xfcrzere Spielzeit","1")
 B.Ci=new A.bk("nicht beeinflusst","0")
@@ -121821,24 +121821,24 @@ B.a1d=new A.aw("Nicht genug M\xfcnzen um dieses Sonderjelly zu kaufen",null,null
 B.a1e=new A.aw("Installieren",null,null,null,null,null,null,null,null,null)
 B.a1h=new A.aw("7.\tFortschritt und Herausforderungen: ",null,B.bb,null,null,null,null,null,null,null)
 B.Cv=new A.aw("Ja",null,null,null,null,null,null,null,null,null)
-B.a1i=new A.aw("                  \nDie Installation funktioniert je nach Smartphone wie in Option 1 oder Option 2 beschrieben (siehe unten).\n                  \nUnabh\xe4ngig davon werden Sie beim ersten \xd6ffnen der App gefragt, ob diese Ihnen Pushnachrichten senden darf. Bitte klicken Sie hier auf \u201eZulassen\u201c. Dies ist wichtig f\xfcr den vollen Funktionsumfang der Studie!",null,B.dr,B.F,null,null,null,null,null,null)
-B.a1j=new A.aw("T\xe4gliche Belohnung bereits abgeholt",null,null,null,null,null,null,null,null,null)
-B.a1k=new A.aw("Vielen Dank f\xfcr Ihr Interesse an unserer Studie. Leider d\xfcrfen aus rechtlichen Gr\xfcnden nur Personen mit einem Mindestalter von 18 Jahren an unsere Studie teilnehmen.",null,null,null,null,null,null,null,null,null)
-B.a1l=new A.aw("Au\xdferdem gibt es im Men\xfc noch zwei weitere spannende Features f\xfcr dich: Im Shop (1) kannst du mit den erspielten M\xfcnzen Sonderjellies kaufen. Au\xdferdem wartet t\xe4glich eine neue Belohnung darauf von dir abgeholt zu werden (2). Die Musik kann ebenfalls im Men\xfc ein- und ausgeschalten werden (3)\n                                ",null,null,null,null,null,null,null,null,null)
-B.a1m=new A.aw("Viel Spa\xdf beim Spielen!\n          ",null,B.bb,null,null,null,null,null,null,null)
+B.a1j=new A.aw("                  \nDie Installation funktioniert je nach Smartphone wie in Option 1 oder Option 2 beschrieben (siehe unten).\n                  \nUnabh\xe4ngig davon werden Sie beim ersten \xd6ffnen der App gefragt, ob diese Ihnen Pushnachrichten senden darf. Bitte klicken Sie hier auf \u201eZulassen\u201c. Dies ist wichtig f\xfcr den vollen Funktionsumfang der Studie!",null,B.dr,B.F,null,null,null,null,null,null)
+B.a1k=new A.aw("T\xe4gliche Belohnung bereits abgeholt",null,null,null,null,null,null,null,null,null)
+B.a1l=new A.aw("Vielen Dank f\xfcr Ihr Interesse an unserer Studie. Leider d\xfcrfen aus rechtlichen Gr\xfcnden nur Personen mit einem Mindestalter von 18 Jahren an unsere Studie teilnehmen.",null,null,null,null,null,null,null,null,null)
+B.a1m=new A.aw("Au\xdferdem gibt es im Men\xfc noch zwei weitere spannende Features f\xfcr dich: Im Shop (1) kannst du mit den erspielten M\xfcnzen Sonderjellies kaufen. Au\xdferdem wartet t\xe4glich eine neue Belohnung darauf von dir abgeholt zu werden (2). Die Musik kann ebenfalls im Men\xfc ein- und ausgeschalten werden (3)\n                                ",null,null,null,null,null,null,null,null,null)
+B.a1n=new A.aw("Viel Spa\xdf beim Spielen!\n          ",null,B.bb,null,null,null,null,null,null,null)
 B.Cw=new A.aw("Keine Z\xfcge mehr m\xf6glich",null,null,null,null,null,null,null,null,null)
-B.a1p=new A.aw("6.\tStartbildschirm: ",null,B.bb,null,null,null,null,null,null,null)
-B.a1q=new A.aw("Du hast nicht genug M\xfcnzen um dieses Level freizuschalten",null,null,null,null,null,null,null,null,null)
-B.a1u=new A.aw("Im Hauptmen\xfc siehst du welche Level du bereits freigespielt hast (K\xe4stchen hat eine deckende Farbe (1)) undwie viele M\xfcnzen du hast (2) (diese kannst du nutzen um Sonderjellies zu kaufen). Im Men\xfc (3) kannst du diese Instruktionen jederzeit erneut durchlesen, solltest du etwas vergessen haben\n                                ",null,null,null,null,null,null,null,null,null)
+B.a1q=new A.aw("6.\tStartbildschirm: ",null,B.bb,null,null,null,null,null,null,null)
+B.a1r=new A.aw("Du hast nicht genug M\xfcnzen um dieses Level freizuschalten",null,null,null,null,null,null,null,null,null)
+B.a1v=new A.aw("Im Hauptmen\xfc siehst du welche Level du bereits freigespielt hast (K\xe4stchen hat eine deckende Farbe (1)) undwie viele M\xfcnzen du hast (2) (diese kannst du nutzen um Sonderjellies zu kaufen). Im Men\xfc (3) kannst du diese Instruktionen jederzeit erneut durchlesen, solltest du etwas vergessen haben\n                                ",null,null,null,null,null,null,null,null,null)
 B.Cx=new A.aw("Au\xdferdem gibt es im Men\xfc noch ein weiters spannendes Feature f\xfcr dich: Im Shop (1) kannst du mit den erspielten M\xfcnzen Sonderjellies kaufen. Die Musik kann ebenfalls im Men\xfc ein- und ausgeschalten werden (2).\n                                ",null,null,null,null,null,null,null,null,null)
 B.dq=new A.x(!0,B.c9,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a1w=new A.aw("Feedback senden",null,B.dq,null,null,null,null,null,null,null)
-B.a1x=new A.aw("Um an der Studie teilnehmen zu k\xf6nnen",null,B.dr,B.F,null,null,null,null,null,null)
-B.a1y=new A.aw("Drehe um XP und $ zu erhalten",null,null,null,null,null,null,null,null,null)
+B.a1x=new A.aw("Feedback senden",null,B.dq,null,null,null,null,null,null,null)
+B.a1y=new A.aw("Um an der Studie teilnehmen zu k\xf6nnen",null,B.dr,B.F,null,null,null,null,null,null)
+B.a1z=new A.aw("Drehe um XP und $ zu erhalten",null,null,null,null,null,null,null,null,null)
 B.ds=new A.aw("OK",null,null,null,null,null,null,null,null,null)
-B.a1z=new A.aw("T\xe4gliche Belohnung",null,B.dq,null,null,null,null,null,null,null)
-B.a1A=new A.aw("Clear Cookies",null,null,null,null,null,null,null,null,null)
-B.a1C=new A.aw("Level abbrechen",null,null,null,null,null,null,null,null,null)
+B.a1A=new A.aw("T\xe4gliche Belohnung",null,B.dq,null,null,null,null,null,null,null)
+B.a1B=new A.aw("Clear Cookies",null,null,null,null,null,null,null,null,null)
+B.a1D=new A.aw("Level abbrechen",null,null,null,null,null,null,null,null,null)
 B.a1E=new A.aw("Vergiss nicht deine t\xe4gliche Belohnung im Men\xfc oben abzuholen!",null,null,B.F,null,null,null,null,null,null)
 B.a1F=new A.aw("Imprint",null,B.dq,null,null,null,null,null,null,null)
 B.a1G=new A.aw("              \nIm Anschluss k\xf6nnen Sie die Seite bzw. das Spiel wie jede gew\xf6hnliche App handhaben.",null,B.dr,B.F,null,null,null,null,null,null)
