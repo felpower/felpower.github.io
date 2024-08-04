@@ -44391,7 +44391,8 @@ A.is(!0,new A.auP(this),q,r)}},
 zf(){var s=0,r=A.m(t.H),q,p=this,o,n,m,l,k
 var $async$zf=A.n(function(a,b){if(a===1)return A.j(b,r)
 while(true)switch(s){case 0:if(p.r){s=1
-break}s=3
+break}p.r=!0
+s=3
 return A.o(A.cf(),$async$zf)
 case 3:o=b
 n=o.a
@@ -44401,7 +44402,6 @@ k=A.ef(m.h(n,"fromNotification"))
 n=!1
 if(k!=null)if(k)n=l==null||!l
 if(n){A.cX("fromNotification: "+A.p(k)+" and dpInfoShown: "+A.p(l))
-p.r=!0
 n=p.c
 n.toString
 A.is(!0,new A.auR(o),n,t.z)}case 1:return A.k(q,r)}})
