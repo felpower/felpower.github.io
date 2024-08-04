@@ -8151,9 +8151,9 @@ WE:function WE(a,b){var _=this
 _.d=!0
 _.e=0
 _.f=""
-_.r=null
-_.w=!1
-_.z=_.y=_.x=$
+_.w=null
+_.x=!1
+_.Q=_.z=_.y=$
 _.cq$=a
 _.bg$=b
 _.c=_.a=null},
@@ -44280,7 +44280,7 @@ an(){var s=this
 s.aH()
 $.aa.aU$.push(s)
 s.A5()
-s.r=s.y7()
+s.w=s.y7()
 $.it().S(0,new A.avu())},
 bf(){this.cK()},
 l(){$.aa.kN(this)
@@ -44289,7 +44289,7 @@ H(a){var s,r,q,p,o,n,m,l=this,k=null,j=t.dY,i=A.eR(a,j).c
 l.w4(i)
 s=A.uN(a,t.bM)
 A.bz(a,k,t.w).toString
-if(!l.w){l.A6()
+if(!l.x){l.A6()
 l.a1(new A.avk(l))}r=window.location.href
 r.toString
 r=A.di(r,0,k)
@@ -44334,7 +44334,7 @@ k=A.aU(m.h(n,"firstStartTime"))
 n=l==null
 if(n)q.d=!1
 if(!n){q.a1(new A.avv(q,l))
-n=q.x
+n=q.y
 n===$&&A.a()
 if(n>=24)q.d=!1}q.a1(new A.avw(q,o))
 if(k==null){p=A.aJp(1,a)
@@ -44366,14 +44366,14 @@ return A.o(A.cf(),$async$xa)
 case 2:o=b
 o.c5("String","dailyRewards",new A.bd(Date.now(),0,!1).k(0))
 p=q.f
-if(B.d.p(p,"bunt")){p=q.y
-p===$&&A.a()
-p+=q.e
-q.y=p
-o.c5("Int","buntJelly",p)}else if(B.d.p(p,"gestreift")){p=q.z
+if(B.d.p(p,"bunt")){p=q.z
 p===$&&A.a()
 p+=q.e
 q.z=p
+o.c5("Int","buntJelly",p)}else if(B.d.p(p,"gestreift")){p=q.Q
+p===$&&A.a()
+p+=q.e
+q.Q=p
 o.c5("Int","stripeJelly",p)}else if(B.d.p(p,"XP")){p=q.c
 p.toString
 A.eR(p,t.xY).u(0,new A.nt(q.e))}else if(B.d.p(p,"$")){p=q.c
@@ -44381,7 +44381,7 @@ p.toString
 A.eR(p,t.p4).u(0,new A.nr(q.e))}return A.k(null,r)}})
 return A.l($async$xa,r)},
 Sw(a){var s,r=t.z,q=this.c
-if(a){s=this.x
+if(a){s=this.y
 s===$&&A.a()
 q.toString
 A.is(!0,new A.auO(24-s),q,r)}else{q.toString
@@ -44468,7 +44468,7 @@ return A.k(null,r)}})
 return A.l($async$$0,r)},
 $S:16}
 A.avk.prototype={
-$0(){this.a.w=!0},
+$0(){this.a.x=!0},
 $S:0}
 A.avl.prototype={
 $2(a,b){var s=null
@@ -44512,7 +44512,7 @@ A.avp.prototype={
 $2(a,b){var s,r=this.b
 r=r instanceof A.hc||r instanceof A.ks
 s=this.a
-return A.j6(A.aKx(new A.ave(s),s.r,t.S),r)},
+return A.j6(A.aKx(new A.ave(s),s.w,t.S),r)},
 $S:223}
 A.ave.prototype={
 $2(a,b){var s,r=null
@@ -44545,9 +44545,9 @@ A.ava.prototype={
 $2(a,b){var s,r,q=this.b+1,p=this.c
 p=!(p instanceof A.hc)&&!(p instanceof A.vk)?A.aIF(1):A.aIF(q)
 s=this.a
-r=s.y
+r=s.z
 r===$&&A.a()
-s=s.z
+s=s.Q
 s===$&&A.a()
 return new A.vN(q,80,60,50,p,r,s,null)},
 $S:459}
@@ -44615,13 +44615,13 @@ A.av9.prototype={
 $0(){A.bM(this.a,!1).Yr("/endSurvey",t.X)},
 $S:0}
 A.avv.prototype={
-$0(){this.a.x=B.e.co(new A.bd(Date.now(),0,!1).hd(A.MT(this.b)).a,36e8)},
+$0(){this.a.y=B.e.co(new A.bd(Date.now(),0,!1).hd(A.MT(this.b)).a,36e8)},
 $S:0}
 A.avw.prototype={
 $0(){var s=this.a,r=this.b.a,q=J.a7(r),p=A.cC(q.h(r,"buntJelly"))
-s.y=p==null?0:p
+s.z=p==null?0:p
 r=A.cC(q.h(r,"stripeJelly"))
-s.z=r==null?0:r},
+s.Q=r==null?0:r},
 $S:0}
 A.auO.prototype={
 $1(a){var s=null,r=A.bK("T\xe4gliche Belohnung k\xf6nnen wieder in "+this.a+" Stunden abgeholt werden",s,s,s,s,s,s)
@@ -44644,7 +44644,7 @@ A.bM(this.b,!1).d6()
 s.a1(new A.auL(s))},
 $S:0}
 A.auL.prototype={
-$0(){this.a.x=0},
+$0(){this.a.y=0},
 $S:0}
 A.auR.prototype={
 $1(a){return A.fx(A.b([A.eJ(B.by,new A.auQ(this.a,a),null)],t.p),B.A1,null,null,B.hP)},
