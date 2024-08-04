@@ -44281,7 +44281,8 @@ s.aH()
 $.aa.aU$.push(s)
 s.A5()
 s.r=s.y7()
-$.it().S(0,new A.avu())},
+$.it().S(0,new A.avu())
+s.u6()},
 bf(){this.cK()},
 l(){$.aa.kN(this)
 this.a4Q()},
@@ -44294,7 +44295,6 @@ l.a1(new A.avk(l))}r=window.location.href
 r.toString
 r=A.di(r,0,k)
 q=r.glA(r)
-l.u6()
 r=t.dM
 p=t.p
 o=A.uA(A.b([A.jh(new A.avl(),j,r),new A.eT(new A.avm(l,i),k)],p),!0,k,k,B.XD)
