@@ -44388,22 +44388,23 @@ s===$&&A.a()
 q.toString
 A.is(!0,new A.auO(24-s),q,r)}else{q.toString
 A.is(!0,new A.auP(this),q,r)}},
-zf(){var s=0,r=A.m(t.H),q=this,p,o,n,m,l
+zf(){var s=0,r=A.m(t.H),q,p=this,o,n,m,l,k
 var $async$zf=A.n(function(a,b){if(a===1)return A.j(b,r)
-while(true)switch(s){case 0:s=2
+while(true)switch(s){case 0:if(p.r){s=1
+break}s=3
 return A.o(A.cf(),$async$zf)
-case 2:p=b
-o=p.a
-n=J.a7(o)
-m=A.ef(n.h(o,"darkPatternsInfoNotification"))
-l=A.ef(n.h(o,"fromNotification"))
-o=!1
-if(l!=null)if(l)o=(m==null||!m)&&!q.r
-if(o){A.cX("fromNotification: "+A.p(l)+" and dpInfoShown: "+A.p(m))
-q.r=!0
-o=q.c
-o.toString
-A.is(!0,new A.auR(p),o,t.z)}return A.k(null,r)}})
+case 3:o=b
+n=o.a
+m=J.a7(n)
+l=A.ef(m.h(n,"darkPatternsInfoNotification"))
+k=A.ef(m.h(n,"fromNotification"))
+n=!1
+if(k!=null)if(k)n=l==null||!l
+if(n){A.cX("fromNotification: "+A.p(k)+" and dpInfoShown: "+A.p(l))
+p.r=!0
+n=p.c
+n.toString
+A.is(!0,new A.auR(o),n,t.z)}case 1:return A.k(q,r)}})
 return A.l($async$zf,r)},
 ym(){var s=0,r=A.m(t.H),q,p=this,o,n,m
 var $async$ym=A.n(function(a,b){if(a===1)return A.j(b,r)
