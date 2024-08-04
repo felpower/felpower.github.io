@@ -8151,6 +8151,7 @@ WE:function WE(a,b){var _=this
 _.d=!0
 _.e=0
 _.f=""
+_.r=!1
 _.w=null
 _.x=!1
 _.Q=_.z=_.y=$
@@ -44397,8 +44398,9 @@ m=A.ef(n.h(o,"darkPatternsInfoNotification"))
 l=A.ef(n.h(o,"fromNotification"))
 A.cX("fromNotification: "+A.p(l)+" and dpInfoShown: "+A.p(m))
 o=!1
-if(l!=null)if(l)o=m==null||!m
-if(o){o=q.c
+if(l!=null)if(l)o=(m==null||!m)&&!q.r
+if(o){q.r=!0
+o=q.c
 o.toString
 A.is(!0,new A.auR(p),o,t.z)}return A.k(null,r)}})
 return A.l($async$ql,r)},
